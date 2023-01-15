@@ -10,3 +10,153 @@
   /*overflow-x: hidden;*/
   /*font-size: 1rem;*/
 }
+
+#home-cover {
+  margin-top: 12vh;
+  min-height: 88vh;
+}
+
+.home-sub-topic{
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+.main-topic{
+  font-size: 96px;
+  font-weight: 900;
+  color: #07DAC0;
+  text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.banner-p{
+  font-style: normal;
+  font-weight: 350;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  /* or 142% */
+
+  letter-spacing: 0.1em;
+
+  color: #2E2D2D;
+}
+/* ==============type====================== */
+
+/* Global */
+
+.line-1 {
+  position: relative;
+
+  top: 50%;
+
+  width: 24em;
+
+  margin: 0 auto;
+
+  border-right: 1px solid rgba(255, 255, 255, 0.75);
+
+  font-size: 50%;
+
+  text-align: center;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  transform: translateY(-50%);
+}
+
+/* Animation */
+
+.anim-typewriter {
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) 0 infinite normal;
+
+  -webkit-animation: typewriter 2s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) 0 infinite normal;
+
+  -moz-animation: typewriter 2s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) 0 infinite normal;
+
+  -o-animation: typewriter 2s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) 0 infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 24em;
+  }
+}
+
+@-webkit-keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 24em;
+  }
+}
+
+@-moz-keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 24em;
+  }
+}
+
+@-o-keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 24em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(0, 0, 0, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@-moz-keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@-o-keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
