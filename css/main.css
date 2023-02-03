@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+.bg-main-color{
+background-color: #353850 !important;
+}
+.navbar-light{
+    background-color: rgba(255, 255, 255, 0.76);
+}
+.bg-flagship{
+    background-image: url("../src/images/307193.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-features{
+    background-image: url("../src/images/13324.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sub-topics{
+    border-bottom: 1px solid #00df97;
+    color: #00df97;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.topics{
+    font-family: 'Saira', sans-serif !important;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.sub-details{
+    font-family: 'Saira', sans-serif !important;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*counter*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapper{
+    width: 100%;
+}
+.carousel{
+    /*max-width: 1200px;*/
+    margin: auto;
+    padding: 0 30px;
+}
+.carousel .card{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    /*line-height: 250px;*/
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.owl-dots{
+    text-align: center;
+    margin-top: 40px;
+}
+.owl-dot{
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #00df97!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: linear-gradient(0deg, #00df97 0%, #00df61 100%) !important;
+}
+
+/********parallax*****/
+
+.container-parallax {
+    text-align: center;
+    width: 100%;
+    /*min-height: 100vh;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+
+    /*  this is where the magic happens:  */
+    background-attachment: fixed;
+}
+
+
+
+.item {
+    display: flex;
+    max-width: 320px;
+    background-color: white;;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+

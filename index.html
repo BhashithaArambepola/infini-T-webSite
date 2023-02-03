@@ -1,77 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>infini_T</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-<!--    <link rel="stylesheet" href="css/bootstrap.css" />-->
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/sub.css"/>
+    <link rel="stylesheet" href="src/cdn/bootstrap.min.css"/>
+    <script defer src="src/cdn/bootstrap.bundle.min.js"></script>
     <script defer src="js/main.js"></script>
-    <!-- Type writer -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
+
+
+    <!--  slider-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/owl.carousel.js"></script>
+    <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.0/assets/owl.carousel.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">-->
+    <!--    <link rel="stylesheet"-->
+    <!--          href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+    <div class="container-fluid">
         <a href="#" class="navbar-brand">
-          <img
-            src="src/images/infiniT-logo.png"
-            class="img-fluid1"
-            height="60"
-            alt="CoolBrand"
-          />
+            <img
+                    src="src/images/infiniT-logo.png"
+                    class="img-fluid1"
+                    height="60"
+                    alt="CoolBrand"
+            />
         </a>
         <button
-          type="button"
-          class="navbar-toggler"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
+                type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav ms-auto">
-            <a href="#" class="nav-item nav-link active">Home</a>
-            <a href="#" class="nav-item nav-link">About Us</a>
-            <a href="#" class="nav-item nav-link">Services</a>
-            <a href="#" class="nav-item nav-link">Portfolio</a>
-            <a href="#" class="nav-item nav-link">Careers</a>
-            <a href="#" class="nav-item nav-link">Contact Us</a>
-          </div>
+            <div class="navbar-nav ms-auto">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">About Us</a>
+                <a href="#" class="nav-item nav-link">Services</a>
+                <a href="#" class="nav-item nav-link">Portfolio</a>
+                <a href="#" class="nav-item nav-link">Careers</a>
+                <a href="#" class="nav-item nav-link">Contact Us</a>
+            </div>
         </div>
-      </div>
-    </nav>
-    <!-- Navbar -->
-
-    <!-- Cover Banner -->
-    <div id="home-cover" class="row container-fluid">
-      <div class="col-lg-6 col-sm-12 d-flex justify-content-start align-items-center">
-        <div class="">
-        <h4 class="home-sub-topic">We Design & Develop</h4>
-          <h2 class=" main-topic display-1"> <strong class="input fw-bold">  </strong></h2>
-          <p class="text-left banner-p pr-lg-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
-        </div>
-      </div>
-      <div class="col-lg-6 col-sm-12 container d-flex justify-content-center align-items-center">
-        <img class="img-fluid" src="src/images/cover-img.png" />
-      </div>
     </div>
-    <!-- Cover Banner -->
+</nav>
+<!-- Navbar -->
+
+<!-- Cover Banner -->
+<div id="home-cover" class="container-fluid d-flex justify-content-center">
+    <div class="row">
+        <div class="col-md-6 col-12 d-flex justify-content-start align-items-center ">
+            <div class="">
+                <div class="d-flex align-items-baseline">
+                    <h4 class="home-sub-topic px-5">Smarter </h4>
+                    <h1 class="home-banner-It"> IT,</h1>
+                </div>
+                </h1> <h4 class="home-sub-topic px-5">smarter solutions</h4>
+
+                <!--            <h2 class="main-topic display-1">-->
+                <!--                <strong class="input fw-bold"> </strong>-->
+                <!--            </h2>-->
+                <p class="text-left banner-p px-5">
+                    Infini-T is a Technology driven company based in Colombo, Sri Lanka. Our main focus to provide IT
+                    solutions and services to Clients Worldwide.
+                </p>
+                <div class=" d-flex px-5">
+                    <button class="custom-btn btn-7 me-3"><span>About Us</span></button>
+                    <button class="custom-btn btn-7"><span>See Projects</span></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-6 col-12 container d-flex justify-content-center align-items-center bg-dark">
+            <img class="img-fluid" src="src/images/cover-img.png"/>
+        </div>
+    </div>
+</div>
+
+<!-- Our FlagShip Banner -->
+<div id="flagShipBanner" class="row container-fluid container-parallax bg-flagship d-flex justify-content-center align-item-center py-5">
+    <div class="d-flex justify-content-center align-item-center py-5">
+        <div class="horizontal-line"></div>
+    </div>
+    <div class="row d-flex justify-content-center align-item-center">
+        <div class="text-center col-10 col-md-8 col-lg-6">
+
+            <h5 class="sub-topics">Our Flagship</h5>
+            <h1 class="topics text-white">Provide IT Solutions and Services</h1>
+            <p class="sub-details text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                molestiae quas
+                vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed
+                odit
+                fugiat iusto fuga praesentium optio, eaque rerum! Provident similique</p>
+        </div>
+    </div>
 
 
-  </body>
+    <div class="d-flex justify-content-center align-item-center py-5">
+        <img src="src/images/Group%20983.png" class="img-fluid ">
+    </div>
+
+</div>
+
+<!-- Services Carousel Banner -->
+<section class="container-fluid d-flex row py-5">
+    <div class="row d-flex justify-content-center align-item-center">
+        <div class="text-center col-6 ">
+
+            <h5 class="sub-topics">Our Solutions</h5>
+            <h1 class="topics">Services</h1>
+            <p class="sub-details">Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla
+                porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. </p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="carousel owl-carousel">
+            <div class="card ">
+                A
+            </div>
+            <div class="card ">
+                B
+            </div>
+            <div class="card ">
+                C
+            </div>
+            <div class="card ">
+                D
+            </div>
+            <div class="card ">
+                E
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--test -->
+
+<!-- About Us Banner -->
+<section id="about-us" class="container py-5 ">
+    <div class="row">
+        <div class="col-12 col-lg-6 d-flex justify-content-center  ">
+            <div class="row d-flex justify-content-start align-item-center">
+                <div class="text-lg-start text-center ">
+
+                    <h5 class="sub-topics">Get To Know</h5>
+                    <h1 class="topics">About Us</h1>
+                    <p class="sub-details">Infini-T Tech Solutions is a Solutions providing company based in Colombo,
+                        Sri Lanka. Our main focus to provide IT solutions and services to Clients Worldwide. With our
+                        highly talented experience consultants and developers we ensure to provide the best solution for
+                        our client’s requirements and help organizations for their Digital Transformation. We provide
+                        Microsoft Dynamics ERP Implementations & Development and Consultancy & Support for Microsoft
+                        products. With our development we are provide bespoke Software and Mobile Application solutions
+                        to our clients.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 bg-main-color d-flex justify-content-center "></div>
+    </div>
+</section>
+
+<!-- why choose us Banner -->
+<section id="services" class="d-flex justify-content-center py-5">
+    <div id="Our-Services" class="row container d-flex justify-content-center align-item-center py-5">
+        <div class="col-lg-12 col-12 col-md-8 text-center">
+            <div class="row d-flex justify-content-center align-item-center">
+                <div class="text-center col-6 ">
+
+                    <h5 class="sub-topics">Our Solutions</h5>
+                    <h1 class="topics">Why Choose Us</h1>
+                    <p class="sub-details">Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla
+                        porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. </p>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="flip-container">
+                            <div class="flip flipPreview">
+                                <div class="card bg-main-color text-white text-center flip-front">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <p>
+                                            <svg id="users" viewBox="0 0 32 32" width="60" height="60">
+                                                <g class="nc-icon-wrapper">
+                                                    <path data-color="color-2"
+                                                          d="M19,9.5c0,2.485,2.015,5.5,4.5,5.5S28,11.985,28,9.5S25.985,5,23.5,5S19,7.015,19,9.5z"></path>
+                                                    <path d="M16,9.5c0,3.038-2.462,6.5-5.5,6.5S5,12.538,5,9.5S7.462,4,10.5,4S16,6.462,16,9.5z"></path>
+                                                    <path data-color="color-2"
+                                                          d="M29.499,18.128C28.208,17.613,26.12,17,23.5,17c-1.931,0-3.57,0.334-4.817,0.715 C21.577,19.036,23,21.579,23,24.185V25h9v-3.162C32,20.189,31.019,18.733,29.499,18.128z"></path>
+                                                    <path d="M18.205,19.695C16.618,18.922,13.993,18,10.5,18s-6.118,0.922-7.705,1.695C1.097,20.522,0,22.285,0,24.185 V28h21v-3.815C21,22.285,19.903,20.522,18.205,19.695z"></path>
+                                                </g>
+                                            </svg>
+                                        </p>
+                                        <h5 class="card-title">Lorem Ipsum</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card text-center flip-back">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <h5 class="card-title">Lorem Ipsum</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <div>
+                                            <a href="#" class="btn btn-outline-secondary">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="flip-container">
+                            <div class="flip">
+                                <div class="card bg-main-color text-white text-center flip-front">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <p>
+                                            <svg id="users" viewBox="0 0 32 32" width="60" height="60">
+                                                <g class="nc-icon-wrapper">
+                                                    <path data-color="color-2"
+                                                          d="M19,9.5c0,2.485,2.015,5.5,4.5,5.5S28,11.985,28,9.5S25.985,5,23.5,5S19,7.015,19,9.5z"></path>
+                                                    <path d="M16,9.5c0,3.038-2.462,6.5-5.5,6.5S5,12.538,5,9.5S7.462,4,10.5,4S16,6.462,16,9.5z"></path>
+                                                    <path data-color="color-2"
+                                                          d="M29.499,18.128C28.208,17.613,26.12,17,23.5,17c-1.931,0-3.57,0.334-4.817,0.715 C21.577,19.036,23,21.579,23,24.185V25h9v-3.162C32,20.189,31.019,18.733,29.499,18.128z"></path>
+                                                    <path d="M18.205,19.695C16.618,18.922,13.993,18,10.5,18s-6.118,0.922-7.705,1.695C1.097,20.522,0,22.285,0,24.185 V28h21v-3.815C21,22.285,19.903,20.522,18.205,19.695z"></path>
+                                                </g>
+                                            </svg>
+                                        </p>
+                                        <h5 class="card-title">Lorem Ipsum</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card text-center flip-back">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <h5 class="card-title">Lorem Ipsum</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <div>
+                                            <a href="#" class="btn btn-outline-secondary">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="flip-container">
+                            <div class="flip">
+                                <div class="card bg-main-color text-white text-center flip-front">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <p>
+                                            <svg id="users" viewBox="0 0 32 32" width="60" height="60">
+                                                <g class="nc-icon-wrapper">
+                                                    <path data-color="color-2"
+                                                          d="M19,9.5c0,2.485,2.015,5.5,4.5,5.5S28,11.985,28,9.5S25.985,5,23.5,5S19,7.015,19,9.5z"></path>
+                                                    <path d="M16,9.5c0,3.038-2.462,6.5-5.5,6.5S5,12.538,5,9.5S7.462,4,10.5,4S16,6.462,16,9.5z"></path>
+                                                    <path data-color="color-2"
+                                                          d="M29.499,18.128C28.208,17.613,26.12,17,23.5,17c-1.931,0-3.57,0.334-4.817,0.715 C21.577,19.036,23,21.579,23,24.185V25h9v-3.162C32,20.189,31.019,18.733,29.499,18.128z"></path>
+                                                    <path d="M18.205,19.695C16.618,18.922,13.993,18,10.5,18s-6.118,0.922-7.705,1.695C1.097,20.522,0,22.285,0,24.185 V28h21v-3.815C21,22.285,19.903,20.522,18.205,19.695z"></path>
+                                                </g>
+                                            </svg>
+                                        </p>
+                                        <h5 class="card-title">Lorem Ipsum</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card text-center flip-back">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <h5 class="card-title">Lorem Ipsum</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <div>
+                                            <a href="#" class="btn btn-outline-secondary">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="flip-container">
+                            <div class="flip">
+                                <div class="card bg-main-color text-white text-center flip-front">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <p>
+                                            <svg id="users" viewBox="0 0 32 32" width="60" height="60">
+                                                <g class="nc-icon-wrapper">
+                                                    <path data-color="color-2"
+                                                          d="M19,9.5c0,2.485,2.015,5.5,4.5,5.5S28,11.985,28,9.5S25.985,5,23.5,5S19,7.015,19,9.5z"></path>
+                                                    <path d="M16,9.5c0,3.038-2.462,6.5-5.5,6.5S5,12.538,5,9.5S7.462,4,10.5,4S16,6.462,16,9.5z"></path>
+                                                    <path data-color="color-2"
+                                                          d="M29.499,18.128C28.208,17.613,26.12,17,23.5,17c-1.931,0-3.57,0.334-4.817,0.715 C21.577,19.036,23,21.579,23,24.185V25h9v-3.162C32,20.189,31.019,18.733,29.499,18.128z"></path>
+                                                    <path d="M18.205,19.695C16.618,18.922,13.993,18,10.5,18s-6.118,0.922-7.705,1.695C1.097,20.522,0,22.285,0,24.185 V28h21v-3.815C21,22.285,19.903,20.522,18.205,19.695z"></path>
+                                                </g>
+                                            </svg>
+                                        </p>
+                                        <h5 class="card-title">Lorem Ipsum</h5>
+                                    </div>
+                                </div>
+
+                                <div class="card text-center flip-back">
+                                    <div class="card-body d-flex flex-column justify-content-center">
+                                        <h5 class="card-title">Lorem Ipsum</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <div>
+                                            <a href="#" class="btn btn-outline-secondary">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--counter-->
+<section id="counter" class="bg-features container-parallax py-5">
+    <div class="container">
+        <div class="row d-flex justify-content-center align-item-center">
+            <div class="text-center col-6 ">
+
+                <h5 class="sub-topics">Case Study</h5>
+                <h1 class="topics text-white">Features</h1>
+                <p class="sub-details text-white">Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla
+                    porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3  d-flex justify-content-center align-items-center">
+                <div class="counter text-white " data-count="8">0</div>
+                <h3 class="text-white">+</h3></div>
+            <div class="col-3  d-flex justify-content-center align-items-center">
+                <div class="counter text-white " data-count="22">0</div>
+                <h3 class="text-white">+</h3></div>
+            <div class="col-3  d-flex justify-content-center align-items-center">
+                <div class="counter text-white " data-count="15">0</div>
+                <h3 class="text-white">+</h3></div>
+            <div class="col-3  d-flex justify-content-center align-items-center">
+                <div class="counter text-white " data-count="22">0</div>
+                <h3 class="text-white">+</h3></div>
+
+        </div>
+
+
+    </div>
+</section>
+
+<!-- Our Project Banner -->
+<section class=" py-5">
+    <div class="row d-flex justify-content-center align-item-center">
+        <div class="text-center col-6 ">
+
+            <h5 class="sub-topics">Our Solutions</h5>
+            <h1 class="topics">Projects</h1>
+            <p class="sub-details">Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla
+                porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero. </p>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+                <div class="card project-card text-white card-has-bg click-col"
+                     style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+                         alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="card-body">
+                            <small class="card-meta mb-2">Thought Leadership</small>
+                            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet
+                                Consectetur dipisi?</a></h4>
+                            <small><i class="far fa-clock"></i> October 15, 2020</small>
+                        </div>
+                        <div class="card-footer">
+                            <div class="media">
+
+                                <div class="media-body">
+                                    <h6 class="my-0 text-white d-block">Oz Coruhlu</h6>
+                                    <small>Director of UI/UX</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+                <div class="card project-card text-white card-has-bg click-col"
+                     style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+                         alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="card-body">
+                            <small class="card-meta mb-2">Thought Leadership</small>
+                            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet
+                                Consectetur dipisi?</a></h4>
+                            <small><i class="far fa-clock"></i> October 15, 2020</small>
+                        </div>
+                        <div class="card-footer">
+                            <div class="media">
+
+                                <div class="media-body">
+                                    <h6 class="my-0 text-white d-block">Oz Coruhlu</h6>
+                                    <small>Director of UI/UX</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+                <div class="card project-card text-white card-has-bg click-col"
+                     style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+                         alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="card-body">
+                            <small class="card-meta mb-2">Thought Leadership</small>
+                            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet
+                                Consectetur dipisi?</a></h4>
+                            <small><i class="far fa-clock"></i> October 15, 2020</small>
+                        </div>
+                        <div class="card-footer">
+                            <div class="media">
+
+                                <div class="media-body">
+                                    <h6 class="my-0 text-white d-block">Oz Coruhlu</h6>
+                                    <small>Director of UI/UX</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3 p-3">
+                <div class="card project-card text-white card-has-bg click-col"
+                     style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+                    <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street"
+                         alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="card-body">
+                            <small class="card-meta mb-2">Thought Leadership</small>
+                            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet
+                                Consectetur dipisi?</a></h4>
+                            <small><i class="far fa-clock"></i> October 15, 2020</small>
+                        </div>
+                        <div class="card-footer">
+                            <div class="media">
+
+                                <div class="media-body">
+                                    <h6 class="my-0 text-white d-block">Oz Coruhlu</h6>
+                                    <small>Director of UI/UX</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 text-center">
+                <button class="custom-btn btn-7"><span>About Us</span></button>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Contact form Banner -->
+<div class="container d-flex justify-content-center align-items-center px-5">
+    <div class="col-12 card">
+        <div class="row d-flex justify-content-center align-items-center  ">
+
+            <div class="col-12 col-md-5 ">
+
+                <div class="d-flex">
+                    <h1>Just Say <h1 class="light-blue-f"> Hello</h1></h1>
+                </div>
+
+                <h6> Head Office:</h6>
+                <p>Infini-T Tech Solutions (Pvt) Ltd</p>
+
+                <p>#135, 6th Floor,<br> Dutugemunu Sreet,<br>
+                    Kohuwala,<br> Sri Lanka.</p>
+                <h6> Email Us: </h6>
+                <p>info@infini-tsolutions.com</p>
+
+                <h6> Call Us:</h6>
+                <p>+94 77 352 0851</p>
+                <img src="src/images/infiniT-logo.png" class="img-fluid" style="width: 100px;">
+
+                <div id="social-media-icon-pack" class="d-flex">
+                    <div class="bg-primary">dd</div>
+                    <div class="bg-secondary">dd</div>
+                    <div class="bg-success">dd</div>
+                    <div class="bg-warning">dd</div>
+
+                </div>
+            </div>
+            <div class="col-md-7 col-12">
+                <form class="row px-5">
+                    <label class="col-12">
+                        <p class="label-txt">ENTER YOUR EMAIL</p>
+                        <input type="text" class="input">
+                        <div class="line-box">
+                            <div class="line"></div>
+                        </div>
+                    </label>
+                    <label class="col-12">
+                        <p class="label-txt">ENTER YOUR NAME</p>
+                        <input type="text" class="input">
+                        <div class="line-box">
+                            <div class="line"></div>
+                        </div>
+                    </label>
+                    <label class="col-12">
+                        <p class="label-txt">ENTER YOUR PASSWORD</p>
+                        <input type="text" class="input">
+                        <div class="line-box">
+                            <div class="line"></div>
+                        </div>
+                    </label>
+                    <div class="col-12">
+                        <button type="submit" class="custom-btn btn-7"><span>Submit</span></button>
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<footer>
+
+</footer>
+</body>
 </html>
