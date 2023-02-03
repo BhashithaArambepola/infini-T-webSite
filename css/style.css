@@ -13,24 +13,24 @@
 
 
 .active{
-  color: #07DAC0 !important;
+  color: #00a4df !important;
 }
 #home-cover {
-  margin-top: 12vh;
-  min-height: 88vh;
+  /*margin-top:7.5vh;*/
+  min-height: 100vh;
 }
 
 .home-sub-topic{
   font-family: 'Saira', sans-serif !important;
   font-size: 4.5em;
   font-weight: 600;
-  color:  #353850 !important;
+  color:  white !important;
 }
 .home-banner-It{
   /*color: #233857;*/
   font-size: 8.5em;
   font-weight: 600;
-  -webkit-text-stroke: 3px #00df97;
+  -webkit-text-stroke: 3px #00a4df;
   -webkit-text-fill-color: transparent;
   -webkit-animation: typing 3.5s steps(40);
   animation: typing 3.5s steps(40);
@@ -48,11 +48,12 @@
   font-weight: 500;
   font-size: 1.5em;
   line-height: 1.3em;
+  color: white ;
   /* or 142% */
 
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;*/
 
-  color: #2E2D2D;
+
 }
 /* ==============type====================== */
 
@@ -216,7 +217,7 @@
 
 .testimonial-carousel .owl-next:hover,
 .testimonial-carousel .owl-prev:hover{
-  background-color:#00df97;
+  background-color:#00a4df;
   box-shadow: 0 24px 24px rgba(187,187,187,.75);
 }
 
@@ -257,7 +258,7 @@
 .horizontal-line{
   width: 5px;
   height: 50px;
-  background-color: #07DAC0;
+  background-color: #00a4df;
 }
 
 .parallax {
@@ -277,7 +278,7 @@
 /*=====our services=====*/
 
 .light-blue-f{
-  color: #07DAC0;
+  color: #00a4df;
   font-family: 'Homenaje' !important;
   font-style: normal;
   font-weight: 400;

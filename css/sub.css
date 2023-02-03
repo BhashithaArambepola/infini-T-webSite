@@ -364,7 +364,7 @@ svg {
 }
 /* 7 */
 .btn-7 {
-    background: linear-gradient(0deg, #00df97 0%, #00df61 100%);
+    background: linear-gradient(0deg, #00a4df 0%, #23b8f3 100%);
     line-height: 42px;
     padding: 0;
     border: none;
@@ -381,7 +381,7 @@ svg {
     content: "";
     right: 0;
     bottom: 0;
-    background: #00df97;
+    background: #00a4df;
     box-shadow:
             -7px -7px 20px 0px rgba(255,255,255,.9),
             -4px -4px 5px 0px rgba(255,255,255,.9),
@@ -398,7 +398,7 @@ svg {
     height: 2px;
 }
 .btn-7:hover{
-    color: #00df97;
+    color: #00a4df;
     background: transparent;
 }
 .btn-7:hover:before {
@@ -413,7 +413,7 @@ svg {
     content: "";
     left: 0;
     top: 0;
-    background: #00df97;
+    background: #00a4df;
     box-shadow:
             -7px -7px 20px 0px rgba(255,255,255,.9),
             -4px -4px 5px 0px rgba(255,255,255,.9),
