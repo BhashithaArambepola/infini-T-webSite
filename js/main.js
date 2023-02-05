@@ -61,7 +61,7 @@
 
         {
 
-          duration: 500,
+          duration: 1000,
           easing:'linear',
           step: function() {
             $this.text(Math.floor(this.countNum));

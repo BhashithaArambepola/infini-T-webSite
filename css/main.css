@@ -6,6 +6,19 @@
     font-family: 'Saira', sans-serif !important;
     /*font-weight: 500;*/
     /*font-size: 20px;*/
+
+}
+body{
+    overflow-x: hidden !important;
+}
+
+.bg-logo{
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .bg-main-color{
 background-color: rgba(0, 2, 10, 0.84) !important;
@@ -59,10 +72,10 @@ background-color: rgba(0, 2, 10, 0.84) !important;
 }
 @keyframes zoom {
     from {
-        transform: scale(0.9,0.9);
+        transform: scale(0.8,0.8);
     }
     to {
-        transform: scale(1.1,1.1);
+        transform: scale(1,1);
     }
 }
 .cover-img{

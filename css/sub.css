@@ -6,6 +6,10 @@
 svg {
     fill: currentColor;
 }
+
+/*.choose-us-card-title {*/
+/*    color: #00C8CC !important;*/
+/*}*/
 .flipPreview {
     animation-name: flip;
     /*animation-duration: 1s;*/
@@ -35,6 +39,7 @@ svg {
 }
 .flip-container:hover .flip {
     transform: rotateY(180deg);
+
 }
 .flip-container .flip {
     width: 100%;
