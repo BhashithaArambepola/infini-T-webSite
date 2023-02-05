@@ -53,9 +53,11 @@ svg {
 .flip-container .flip .flip-front {
     z-index: 2;
     transform: rotateY(0deg);
+    /*border: 3px solid #00C8CC !important;*/
 }
 .flip-container .flip .flip-back {
     transform: rotateY(180deg);
+    border: 1px solid #00C8CC !important;
 }
 .flip-container .flip .flip-front, .flip-container .flip .flip-back {
     backface-visibility: hidden;
