@@ -349,9 +349,6 @@ svg {
 }
 /*-------------btn*/
 
-/*button {*/
-/*    margin: 20px;*/
-/*}*/
 .custom-btn {
     width: 130px;
     height: 40px;
@@ -370,26 +367,25 @@ svg {
     4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
 }
-/* 7 */
-.btn-7 {
-    background: linear-gradient(0deg, #00a4df 0%, #23b8f3 100%);
+.light-button {
+    background: linear-gradient(0deg, #00C8CC 0%, #00C8CC 100%);
     line-height: 42px;
     padding: 0;
     border: none;
 }
-.btn-7 span {
+.light-button span {
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
 }
-.btn-7:before,
-.btn-7:after {
+.light-button:before,
+.light-button:after {
     position: absolute;
     content: "";
     right: 0;
     bottom: 0;
-    background: #00a4df;
+    background: #00C8CC;
     box-shadow:
             -7px -7px 20px 0px rgba(255,255,255,.9),
             -4px -4px 5px 0px rgba(255,255,255,.9),
@@ -397,26 +393,27 @@ svg {
             4px 4px 5px 0px rgba(0,0,0,.3);
     transition: all 0.3s ease;
 }
-.btn-7:before{
+
+.light-button:before{
     height: 0%;
     width: 2px;
 }
-.btn-7:after {
+.light-button:after {
     width: 0%;
     height: 2px;
 }
-.btn-7:hover{
-    color: #00a4df;
+.light-button:hover{
+    color: #00C8CC;
     background: transparent;
 }
-.btn-7:hover:before {
+.light-button:hover:before {
     height: 100%;
 }
-.btn-7:hover:after {
+.light-button:hover:after {
     width: 100%;
 }
-.btn-7 span:before,
-.btn-7 span:after {
+.light-button span:before,
+.light-button span:after {
     position: absolute;
     content: "";
     left: 0;
@@ -429,17 +426,106 @@ svg {
             4px 4px 5px 0px rgba(0,0,0,.3);
     transition: all 0.3s ease;
 }
-.btn-7 span:before {
+.light-button span:before {
     width: 2px;
     height: 0%;
 }
-.btn-7 span:after {
+.light-button span:after {
     height: 2px;
     width: 0%;
 }
-.btn-7 span:hover:before {
+.light-button span:hover:before {
     height: 100%;
 }
-.btn-7 span:hover:after {
+.light-button span:hover:after {
     width: 100%;
 }
+
+
+.custom-btn-dark {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgb(100, 224, 224),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+.dark-button {
+    background: linear-gradient(0deg, #00C8CC 0%, #00C8CC 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+.dark-button span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.dark-button:before,
+.dark-button:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #0a6769;
+    box-shadow:
+            -7px -7px 20px 0px rgb(100, 224, 224),
+            -4px -4px 5px 0px rgb(100, 224, 224),
+            7px 7px 20px 0px rgba(0,0,0,.2),
+            4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+}
+
+.dark-button:before{
+    height: 0%;
+    width: 2px;
+}
+.dark-button:after {
+    width: 0%;
+    height: 2px;
+}
+.dark-button:hover{
+    color: #00C8CC;
+    background: transparent;
+}
+.dark-button:hover:before {
+    height: 100%;
+}
+.dark-button:hover:after {
+    width: 100%;
+}
+.dark-button span:before,
+.dark-button span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #00a4df;
+    box-shadow:
+            -7px -7px 20px 0px rgba(255,255,255,.9),
+            -4px -4px 5px 0px rgba(255,255,255,.9),
+            7px 7px 20px 0px rgba(0,0,0,.2),
+            4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+}
+.dark-button span:before {
+    width: 2px;
+    height: 0%;
+}
+.dark-button span:after {
+    height: 2px;
+    width: 0%;
+}
+
+
