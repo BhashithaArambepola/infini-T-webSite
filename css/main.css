@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
 * {
 
     font-family: 'Saira', sans-serif !important;
@@ -52,6 +54,25 @@ background-color: rgba(0, 2, 10, 0.84) !important;
     background-repeat: no-repeat;
     background-position: center;
 }
+.cover-img{
+    animation: scale 10s linear infinite;
+}
+@keyframes zoom {
+    from {
+        transform: scale(0.9,0.9);
+    }
+    to {
+        transform: scale(1.1,1.1);
+    }
+}
+.cover-img{
+    -webkit-animation: zoom 20s; /* Chrome, Safari, Opera */
+    animation: zoom 20s;
+    display: block;
+    overflow:hidden;
+}
+
+
 .topics{
     font-family: 'Saira', sans-serif !important;
     font-weight: 700;
@@ -133,26 +154,6 @@ footer *{
 .footer-logo{
     width: 50%;
     height: auto;
-}
-.social-media-icons{
-    list-style: none;
-    margin-top: 30px;
-}
-.social-media-icons li{
-    display: inline-block;
-    padding-right: 30px;
-}
-.social-media-icons li a{
-    background: #0f1012;
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: #e4e4e4;
-    display: inline-block;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-    transition: all .8s ease-out 0s;
-    width: 35px;
 }
 
 .horizontal-line{
