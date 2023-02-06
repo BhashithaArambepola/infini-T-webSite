@@ -281,7 +281,16 @@ a, a:hover {
     background-size: cover;
 }
 
-
+.down-arrow{
+    transition: all 1s ease-in-out !important;
+}
+.down-arrow:hover{
+   scale: 1.5;
+    transition: all 1s ease-in-out !important;
+}
+.down-arrow :active{
+    scale: 1;
+}
 /*Services*/
 owl-dots{
     text-align: center;
@@ -399,7 +408,7 @@ owl-dots{
     background: inherit;
     -webkit-filter: grayscale(1);
     -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
+    /*-ms-filter: grayscale(100%);*/
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -457,9 +466,11 @@ owl-dots{
 .sm-outer-box{
     border: 1px white solid;
     border-radius: 5px;
+    transition: all 1s ease-in-out !important;
 }
 .sm-outer-box:hover{
     background-color: #00C8CC;
+    transform: rotate(360deg);
 }
 .contact-form-body {
 
