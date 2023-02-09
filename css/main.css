@@ -219,13 +219,13 @@ a, a:hover {
     color: white !important;
     font-family: 'Saira', sans-serif !important;
     font-weight: 500;
-    font-size: 20px;
+    /*font-size: 20px ;*/
 }
 .nav-link:hover{
     color: #00C8CC !important;
     font-family: 'Saira', sans-serif !important;
     font-weight: 500;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 
 #navbar {
@@ -939,4 +939,9 @@ a:active {
         vertical-align: super !important ;
 
     }
+}
+/*-----------*/
+.features-logo{
+    width: 100px !important;
+    height: auto;
 }
