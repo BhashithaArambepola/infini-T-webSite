@@ -268,6 +268,7 @@ a:active {
 .topics{
     font-weight: 700;
     font-size: 32px !important;
+    color: #1a1e21;
 }
 
 a, a:hover {
@@ -276,7 +277,7 @@ a, a:hover {
 .sub-details{
     font-family: 'Saira', sans-serif !important;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
 }
 /*navBar*/
 .active1{
@@ -633,24 +634,47 @@ label {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .bg-main-color{
-background-color: rgba(0, 2, 10, 0.84) !important;
+background-color: rgba(0, 16, 75, 0.9) !important;
 }
 .navbar-light{
     background-color: rgba(255, 255, 255, 0.76);
 }
 .bg-flagship{
-    background-image: url("../src/images/307193.webp");
+    background-image: url("../src/images/2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .bg-features{
-    background-image: url("../src/images/13324.webp");
+    background-image: url("../src/images/2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
+.bg-solutions{
+    background-image: url("../src/images/pattern-8.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.bg-projects{
+    background-image: url("../src/images/shape-4.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bg-card1{
+    background-image: url("../src/images/pattern-7.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.bg-card2{
+    background-image: url("../src/images/pattern-7.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .sub-topics{
     border-bottom: 1px solid #00C8CC;
     color:#00C8CC;
@@ -662,8 +686,19 @@ background-color: rgba(0, 2, 10, 0.84) !important;
     text-transform: capitalize;
     text-align: center;
 }
+.topic-2{
+
+    color:#00C8CC;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
 .bg-cover{
-    background-image: url("../src/images/307193.webp");
+    background-image: url("../src/images/2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -672,7 +707,12 @@ background-color: rgba(0, 2, 10, 0.84) !important;
 /*    animation: scale 10s linear infinite;*/
 /*}*/
 
-
+.bg-Welcome{
+    background-image: url("../src/images/pattern-7.png");
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
 
 
@@ -713,7 +753,7 @@ footer *{
 }
 .copyRight{
     font-size: 0.8em;
-    background-image: url("../src/images/307193.webp");
+    background-color: rgba(4, 21, 70);
 }
 
 
@@ -721,7 +761,7 @@ footer *{
 
 /*cover banner*/
 .sub-cover{
-    height: 50vh;
+    height: 40vh;
 }
 .sub-cover-topic{
     color: #00C8CC !important;
@@ -1109,3 +1149,19 @@ border:  1px solid #00c8cc;
     }
 }
 
+/*Contact Page*/
+
+.sm-box{
+
+    background: rgba(0, 2, 10, 0.84);
+    border-radius: 5px;
+    transition: all 1s ease-in-out !important;
+}
+.sm-box:hover{
+    background: #00C8CC !important;
+    transform: rotate(360deg);
+}
+.contact-topics{
+    font-weight: 700;
+    font-size: 24px !important;
+}
