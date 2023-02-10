@@ -644,10 +644,10 @@ label {
 }
 .bg-main-color{
     background: rgba( 0, 0, 0, 0.75 ) !important;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(44, 44, 47, 0.37);
     backdrop-filter: blur( 3.5px );
     -webkit-backdrop-filter: blur( 3.5px );
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .bg-navbar{
@@ -742,6 +742,13 @@ label {
     /*background-size: cover;*/
     background-repeat: no-repeat;
     background-position: left;
+}
+.bg-Welcome-r{
+    background-image: url("../src/images/pattern-7-r.png");
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: right !important;
+
 }
 
 
@@ -1198,4 +1205,17 @@ border:  1px solid #00c8cc;
 .counter-sub-logo{
     width: 100px !important;
     height: auto;
+}
+
+/*career*/
+
+.job-card{
+
+   border: #00C8CC 1px solid !important;
+
+}
+
+.job-card:hover{
+   scale: 1.02;
+    transition: 1s;
 }
