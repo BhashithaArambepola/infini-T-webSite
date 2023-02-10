@@ -691,7 +691,7 @@ label {
     background-size: auto;
     background-repeat: no-repeat;
     background-position: right;
-    border: #00C8CC 1px solid;
+    border: unset !important;
 
 }
 .bg-card2{
@@ -806,7 +806,7 @@ footer *{
 
 /*cover banner*/
 .sub-cover{
-    height: 40vh;
+    height: 50vh;
 }
 .sub-cover-topic{
     color: #00C8CC !important;
