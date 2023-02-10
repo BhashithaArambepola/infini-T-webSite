@@ -691,6 +691,8 @@ label {
     background-size: auto;
     background-repeat: no-repeat;
     background-position: right;
+    border: #00C8CC 1px solid;
+
 }
 .bg-card2{
     background-image: url("../src/images/pattern-7.png");
