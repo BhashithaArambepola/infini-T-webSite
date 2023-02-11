@@ -1052,6 +1052,7 @@ footer *{
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 20px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    min-height: 40vh!important;
 }
 
  .solution_card:hover {
@@ -1103,16 +1104,16 @@ footer *{
     margin-bottom: 15px;
 }
 
-.solution_card .solu_description button {
-    border: 0;
-    /*border-radius: 15px;*/
-border:  1px solid #00c8cc;
-    background-color: white;
-    color: #00c8cc;
-    font-weight: 500;
-    font-size: 1rem;
-    padding: 5px 16px;
-}
+/*.solution_card .solu_description button {*/
+/*    border: 0;*/
+/*    !*border-radius: 15px;*!*/
+/*border:  1px solid #00c8cc;*/
+/*    background-color: white;*/
+/*    color: #00c8cc;*/
+/*    font-weight: 500;*/
+/*    font-size: 1rem;*/
+/*    padding: 5px 16px;*/
+/*}*/
 
 .our_solution_content h1 {
     text-transform: capitalize;
@@ -1218,12 +1219,11 @@ border:  1px solid #00c8cc;
 /*career*/
 
 .job-card{
-
-   border: #00C8CC 1px solid !important;
-
+    border: rgba(255, 255, 255, 0.9) 1px solid !important;
 }
 
 .job-card:hover{
    scale: 1.02;
     transition: 1s;
+    border: #00C8CC 1px solid !important;
 }
