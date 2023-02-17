@@ -14,24 +14,20 @@ if ($('.main-header li.dropdown ul').length) {
     });
 }
 
-//shrink navbar
-$(window).scroll(function() {
-    if ($(document).scrollTop() > 70) {
-        $('nav').addClass('shrink');
-    } else {
-        $('nav').removeClass('shrink');
-    }
-});
 
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
 
-//rotate w1
-$(window).scroll(function() {
-    if ($(document).scrollTop() > 1700) {
-        $('#welcome-heading').addClass('text-rotateX');
+function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "30px 10px";
+        document.getElementById("logo").style.fontSize = "25px";
     } else {
-        $('#welcome-heading').removeClass('text-rotateX');
+        document.getElementById("navbar").style.padding = "80px 10px";
+        document.getElementById("logo").style.fontSize = "35px";
     }
-});
+}
+
 
 //Side Content Toggle
 if ($('.main-header .outer-box .nav-btn').length) {
@@ -113,8 +109,8 @@ $(".carousel").owlCarousel({
     margin: 20,
     loop: true,
     autoplay: true,
-    autoplayTimeout: 10000,
-    autoplayHoverPause: false,
+    autoplayTimeout: 8000,
+    autoplayHoverPause: true,
     responsive: {
         0: {
             items: 1,
@@ -175,26 +171,5 @@ $(document).ready(function () {
 })();
 
 
-//---------------clients----------
-$(document).ready(function(){
-    $('.customer-logos').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: true,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
-                slidesToShow: 3
-            }
-        }]
-    });
-});
+//---------------portfolio-----------
+
