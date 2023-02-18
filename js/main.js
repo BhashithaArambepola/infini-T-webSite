@@ -32,6 +32,14 @@ $(window).scroll(function() {
         $('#welcome-heading').removeClass('text-rotateX');
     }
 });
+//rotate w2
+$(window).scroll(function() {
+    if ($(document).scrollTop() > 500) {
+        $('#flagship-heading').addClass('text-rotateX');
+    } else {
+        $('#flagship-heading').removeClass('text-rotateX');
+    }
+});
 
 //Side Content Toggle
 if ($('.main-header .outer-box .nav-btn').length) {
@@ -181,7 +189,7 @@ $(document).ready(function(){
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 500,
+        autoplaySpeed: 1000,
         arrows: false,
         dots: false,
         pauseOnHover: true,

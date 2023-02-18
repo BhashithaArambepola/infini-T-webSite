@@ -719,12 +719,8 @@ label {
     border: 1px solid rgba(255, 255, 255, 0.18) !important;
 }
 .bg-main-color{
-    background: rgba(0, 0, 0, 0.3) !important;
-    box-shadow: 0 8px 32px 0 rgba(44, 44, 47, 0.37);
-    backdrop-filter: blur( 3.5px );
-    -webkit-backdrop-filter: blur( 3.5px );
-    /*border-radius: 10px;*/
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba(0, 200, 204, 0.11) !important;
+
 }
 .bg-navbar{
     background-color: rgba(0, 0, 0, 0.8) !important;
@@ -1332,6 +1328,8 @@ width: 100% ;
 .what-we-offer-card:hover{
    scale: 103%;
     transform: translateX(0px);
+    background-color: rgba(0, 200, 204, 0.3);
+    transition: ease-in-out 1s;
 
 }
 /*clients*/
