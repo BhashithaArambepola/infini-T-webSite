@@ -186,7 +186,7 @@ $(document).ready(function () {
 //---------------clients----------
 $(document).ready(function(){
     $('.customer-logos').slick({
-        slidesToShow: 6,
+        slidesToShow: 8,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 1000,
