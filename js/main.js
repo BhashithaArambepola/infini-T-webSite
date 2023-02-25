@@ -41,6 +41,8 @@ $(window).scroll(function() {
     }
 });
 
+
+
 //Side Content Toggle
 if ($('.main-header .outer-box .nav-btn').length) {
     //Show Form
