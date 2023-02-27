@@ -720,7 +720,7 @@ label {
     border: 1px solid rgba(255, 255, 255, 0.18) !important;
 }
 .bg-main-color{
-    background: rgba(0, 200, 204, 0.11) !important;
+    background-color: rgba(0, 200, 204, 0.1) !important;
 
 }
 .bg-navbar{
@@ -799,7 +799,8 @@ label {
     /*height: 100vh;*/
 }
 .bg-cover-sub{
-    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.63)), url("../src/images/pattern-8.png");
+    /*background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.63)), url("../src/images/pattern-8.png");*/
+    background-color: rgba(0, 200, 204, 0.1) !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1329,7 +1330,7 @@ width: 100% ;
 .what-we-offer-card:hover{
    scale: 103%;
     transform: translateX(0px);
-    background-color: rgba(0, 200, 204, 0.3);
+    background-color: rgba(0, 200, 204, 0.1) !important;
     transition: ease-in-out 1s;
 
 }
