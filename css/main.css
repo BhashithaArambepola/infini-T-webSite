@@ -1349,8 +1349,37 @@ width: 100% ;
     transform: translateX(0px);
     background-color: #006289 !important;
     transition: ease-in-out 0.2s;
-    color: white;
 
+
+
+background: linear-gradient(308deg, #0c7ca9, #072c3a);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 7s ease infinite;
+-moz-animation: AnimationName 7s ease infinite;
+-o-animation: AnimationName 7s ease infinite;
+animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
 }
 /*clients*/
 
