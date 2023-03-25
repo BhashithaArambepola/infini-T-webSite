@@ -208,3 +208,10 @@ $(document).ready(function () {
 //         }]
 //     });
 // });
+
+
+
+
+// <!--    typewriter-->
+
+

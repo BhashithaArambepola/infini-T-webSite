@@ -147,6 +147,23 @@ body{
     width: 100%;
 }
 
+/*.bg-services {*/
+/*    background-color: #006289 !important;*/
+/*}*/
+
+.breadcrumb-item-list:hover, .breadcrumb-item-list:focus {
+    text-decoration: none;
+    color: #0284e2 !important;
+}
+
+.active-tab {
+    color: #00C8CC !important;
+}
+
+
+.nav-space{
+    margin-top: 10vh !important;
+}
 
 .custom-btn-dark {
     width: 130px;
@@ -1330,7 +1347,7 @@ width: 100% ;
 .what-we-offer-card:hover{
    scale: 103%;
     transform: translateX(0px);
-    background-color: rgba(4, 21, 70, 0.84) !important;
+    background-color: #006289 !important;
     transition: ease-in-out 0.2s;
     color: white;
 
@@ -1451,4 +1468,96 @@ width: 100% ;
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+/*-----------------*/
+
+.bg-model{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.90) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.modal-dialog{
+    max-width: unset !important;
+}
+
+.services-content-fc{
+   color: #1a1e21 ;
+}
+.services-topic-fc{
+    color: #006289 !important ;
+}
+.what-we-offer-card:hover .services-topic-fc{
+    color: #00C8CC !important;
+}
+.what-we-offer-card:hover .services-content-fc{
+    color: #ffffff !important;
+}
+
+
+
+label {
+    color: #333;
+    margin: 20px 0px;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+}
+.help-block.with-errors {
+    color: #ff5050;
+    /*margin-top: 5px;*/
+
+}
+
+.contact-form-card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#foo {
+    position: fixed;
+    bottom: 0;
+    right:10%;
+}
+
+
+.bg-services {
+    background: linear-gradient(308deg, #0c7ca9, #072c3a);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 31%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 31%}
 }
