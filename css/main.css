@@ -1590,3 +1590,11 @@ label {
     50%{background-position:100% 70%}
     100%{background-position:0% 31%}
 }
+
+/*footer*/
+.footer-nav{
+    color: #1a1e21;
+}
+.footer-nav :hover{
+    color: #00C8CC ;
+}
