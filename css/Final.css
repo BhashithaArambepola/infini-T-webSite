@@ -9,7 +9,7 @@
 
 .box {
     position: relative;
-    width: 30%;
+    /*width: 30%;*/
     height: 300px;
     margin: 20px;
     transform-style: preserve-3d;
@@ -89,4 +89,8 @@
 
 .what-we-offer-card:hover .hover_color_bubble {
     top: 0rem;
+}
+
+.go-model:hover{
+    transform: scale(0.1) !important;
 }
