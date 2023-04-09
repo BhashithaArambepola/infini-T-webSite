@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+
+
+/*.container{*/
+/*    transform-style: preserve-3d;*/
+/*}*/
+
+.box {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+.box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.box .body .imgContainer .card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 8px 32px 0 rgba(155, 155, 155, 0.3) !important;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(308deg, #0c7ca9, #072c3a);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    border-radius: 5% !important;
+}
+
+.box:hover .body {
+    transform: rotateY(180deg);
+}
+
+.box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.6px);
+    -webkit-backdrop-filter: blur(2.6px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    transform: translateZ(100px);
+}
+
+.box .body .content div h3 {
+    letter-spacing: 1px;
+}
+
+.services-icon {
+    width: 70% !important;
+}
+
+.what-we-offer-card:hover .hover_color_bubble {
+    top: 0rem;
+}
