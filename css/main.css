@@ -445,6 +445,7 @@ a, a:hover {
 
 }
 
+
 @keyframes zoom {
     from {
         transform: scale(0.8, 0.8);
@@ -992,6 +993,9 @@ footer * {
     background-color: rgba(155, 155, 155, 0.55);
 }
 
+.footer-heading{
+    color: #00C8CC !important;
+}
 .copyRight {
     font-size: 0.8em;
     background-color: rgb(0, 0, 0);
