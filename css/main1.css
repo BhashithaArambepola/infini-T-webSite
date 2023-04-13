@@ -723,7 +723,7 @@ label {
     background-color: rgba(255, 255, 255, 0.76);
 }
 
-.bg-flagship {
+.bg-aboutUs {
     background-image: url("../src/images/2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -744,7 +744,7 @@ label {
     background-position: left;
 }
 
-.bg-projects {
+.bg-ContactForm-section {
     background-image: url("../src/images/shape-4.jpg");
     background-size: auto;
     background-repeat: no-repeat;
@@ -779,7 +779,7 @@ label {
     text-align: center;
 }
 
-.topic-2 {
+.Professional-approach-text {
 
     color: #00C8CC;
     display: inline-block;
@@ -805,7 +805,7 @@ label {
     background-position: center;
 }
 
-.bg-contact {
+.bg-join-our-team {
     background-image: url("../src/images/307193.webp");
     background-size: cover;
     background-repeat: no-repeat;
@@ -816,7 +816,7 @@ label {
 /*    animation: scale 10s linear infinite;*/
 /*}*/
 
-.bg-Welcome {
+.bg-pattern-aboutUs {
     background-image: url("../src/images/pattern-7.png");
     /*background-size: cover;*/
     background-repeat: no-repeat;

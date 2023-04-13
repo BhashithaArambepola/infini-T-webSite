@@ -21,21 +21,39 @@ body {
 a {
     text-decoration: none !important;
 }
+
 a:focus,
 a:active {
     outline: none !important;
     box-shadow: none !important;
 }
+
 a, a:hover {
     text-decoration: none;
 }
 
+.container-parallax {
+    background-attachment: fixed;
+}
 
 .topics {
     font-weight: 700;
     font-size: 32px !important;
     color: #1a1e21;
 }
+
+.sub-topics {
+    border-bottom: 1px solid #00C8CC;
+    color: #00C8CC;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 
 /*rotate animation*/
 .text-rotateX {
@@ -101,6 +119,13 @@ nav.shrink .navbar-toggle {
     top: 0; /* Stay on top */
     background-color: rgba(0, 0, 0, 0.75);
     transition: top 0.8s; /* Transition effect when sliding down (and up) */
+}
+
+.bg-logo {
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
 }
 
 /*breadcrumb*/
@@ -366,19 +391,115 @@ nav.shrink .navbar-toggle {
     border-radius: 5px !important;
 }
 
+
 /*end-breadcrumb*/
 
-    /*footer*/
+/*footer*/
+
+.footer-logo {
+    width: 30%;
+    height: auto;
+}
+
+.horizontal-line {
+    width: auto;
+    height: 0.5px;
+    background-color: rgba(155, 155, 155, 0.55);
+}
+
+.footer-heading {
+    color: #00C8CC !important;
+}
+
+.copyRight {
+    font-size: 0.8em;
+    background-color: rgb(0, 0, 0);
+}
 
 
-    /*Home-page*/
+/*Home-page*/
 .home-banner-blue {
     font-size: 1em;
     font-weight: 600;
     color: #00C8CC !important;
 }
 
+.home-sub-topic {
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+/*section-aboutUs*/
+.bg-aboutUs {
+    background-image: linear-gradient(0deg, rgba(49, 110, 105, 0.8), rgba(1, 13, 47, 0.9)), url("../src/images/flagship-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Professional-approach-text {
+    color: #00C8CC;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/*section-solutions*/
+.bg-solutions {
+    background-image: url("../src/images/bg-images/geometric_abstract_background_with_connected_dots_and_lines.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 /*AboutUs-page*/
+.bg-pattern-aboutUs {
+    background-image: url("../src/images/pattern-7.png");
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+/*section-ourTeam*/
+.bg-OurTeam {
+    background-image: linear-gradient(0deg, rgba(49, 110, 105, 0.8), rgba(1, 13, 47, 0.9)), url("../src/images/bg-images/futuristic-smart-city-with-5g-global-network-technology copy.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 /*Solutions-page*/
+/*section-solutions*/
+.bg-solutions-box {
+    background-image: url("../src/images/bg-images/4887489.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 /*Careers-page*/
+/*section-join-our-team*/
+.bg-join-our-team {
+    background-image: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.82)), url("../src/images/bg-images/businessman-pointing-his-presentation-futuristic-digital-screen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /*ContactUs-page*/
+/*section-contactForm*/
+.bg-ContactForm-section {
+    background-image: url("../src/images/shape-4.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+}

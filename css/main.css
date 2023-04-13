@@ -296,81 +296,79 @@
 /*    background-repeat: no-repeat;*/
 /*    background-size: cover;*/
 /*}*/
-.home-sub-topic {
-    /*font-family: 'Saira', sans-serif !important;*/
-    font-size: 3.5em;
-    font-weight: 600;
-    /*color:  white !important;*/
-}
+/*.home-sub-topic {*/
+/*    font-size: 3.5em;*/
+/*    font-weight: 600;*/
+/*}*/
 
-.home-banner-It {
-    font-size: 2.5em;
-    font-weight: 600;
-    -webkit-text-stroke: 3px #00C8CC;
-    -webkit-text-fill-color: transparent;
-    /*font-family: 'Saira', sans-serif !important;*/
+/*.home-banner-It {*/
+/*    font-size: 2.5em;*/
+/*    font-weight: 600;*/
+/*    -webkit-text-stroke: 3px #00C8CC;*/
+/*    -webkit-text-fill-color: transparent;*/
+/*    !*font-family: 'Saira', sans-serif !important;*!*/
 
-}
+/*}*/
 
-.services-logo {
-    width: 20% !important;
+/*.services-logo {*/
+/*    width: 20% !important;*/
 
-}
+/*}*/
 
 
-@keyframes zoom {
-    from {
-        transform: scale(0.8, 0.8);
-    }
-    to {
-        transform: scale(1, 1);
-    }
-}
+/*@keyframes zoom {*/
+/*    from {*/
+/*        transform: scale(0.8, 0.8);*/
+/*    }*/
+/*    to {*/
+/*        transform: scale(1, 1);*/
+/*    }*/
+/*}*/
 
-.cover-img {
-    -webkit-animation: zoom 20s; /* Chrome, Safari, Opera */
-    animation: zoom 20s;
-    display: block;
-    overflow: hidden;
-}
+/*.cover-img {*/
+/*    -webkit-animation: zoom 20s; !* Chrome, Safari, Opera *!*/
+/*    animation: zoom 20s;*/
+/*    display: block;*/
+/*    overflow: hidden;*/
+/*}*/
 
 
 /*About Us*/
 
 
 /*Our Flagship*/
-.vertical-line {
-    width: 5px;
-    height: 50px;
-    background-color: #00C8CC;
-}
+/*.vertical-line {*/
+/*    width: 5px;*/
+/*    height: 50px;*/
+/*    background-color: #00C8CC;*/
+/*}*/
 
-.parallax {
-    /* The image used */
-    background-image: linear-gradient(0deg, rgba(188, 113, 225, 0.3), rgba(52, 4, 65, 0.76)), url("../src/images/technology-binary-number-programming-wallpaper-2560x720_72.jpg");
+/*.parallax {*/
+/*    !* The image used *!*/
+/*    background-image: linear-gradient(0deg, rgba(188, 113, 225, 0.3), rgba(52, 4, 65, 0.76)), url("../src/images/technology-binary-number-programming-wallpaper-2560x720_72.jpg");*/
 
-    /* Set a specific height */
-    min-height: 500px;
+/*    !* Set a specific height *!*/
+/*    min-height: 500px;*/
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/*    !* Create the parallax scrolling effect *!*/
+/*    background-attachment: fixed;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
 
-.down-arrow {
-    transition: all 1s ease-in-out !important;
-}
+/*.down-arrow {*/
+/*    transition: all 1s ease-in-out !important;*/
+/*}*/
 
-.down-arrow:hover {
-    scale: 1.5;
-    transition: all 1s ease-in-out !important;
-}
+/*.down-arrow:hover {*/
+/*    scale: 1.5;*/
+/*    transition: all 1s ease-in-out !important;*/
+/*}*/
 
-.down-arrow :active {
-    scale: 1;
-}
+/*.down-arrow :active {*/
+/*    scale: 1;*/
+/*}*/
 
 /*Services*/
 /*owl-dots{*/
@@ -394,492 +392,214 @@
 
 
 /*why Choose us*/
-.flipPreview {
-    animation-name: flip;
-    /*animation-duration: 1s;*/
-    animation-delay: 2s;
-    animation-timing-function: ease;
-    animation-iteration-count: 2;
-    animation-direction: alternate;
-}
-
-@keyframes flip {
-    from {
-        transform: rotateY(0deg);
-    }
-    to {
-        transform: rotateY(180deg);
-    }
-}
-
-.flip-container {
-    width: 100%;
-    height: 250px;
-}
-
-.flip-container .card {
-    width: 100%;
-    height: 100%;
-}
-
-.flip-container {
-    perspective: 1000px;
-}
-
-.flip-container:hover .flip {
-    transform: rotateY(180deg);
-
-}
-
-.flip-container .flip {
-    width: 100%;
-    height: 100%;
-}
-
-.flip-container .flip {
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    position: relative;
-}
-
-.flip-container .flip .flip-front {
-    z-index: 2;
-    transform: rotateY(0deg);
-    background: rgba(21, 1, 1, 0.22);
-    box-shadow: 0 8px 32px 0 rgba(62, 65, 110, 0.37);
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.07);
-    /*border: 3px solid #00C8CC !important;*/
-}
-
-.flip-container .flip .flip-back {
-    transform: rotateY(180deg);
-    color: black !important;
-    background: rgba(255, 255, 255, 0.7);
-    box-shadow: 0 8px 32px 0 rgba(62, 65, 110, 0.37);
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.07);
-}
-
-.flip-container .flip .flip-front, .flip-container .flip .flip-back {
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    will-change: transform;
-}
-
-
-/*Projects*/
-
-.project-card {
-    border: none;
-    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-    overflow: hidden;
-    border-radius: 20px;
-    min-height: 300px;
-    height: auto;
-    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 768px) {
-    .project-card {
-        min-height: 350px;
-    }
-}
-
-@media (max-width: 420px) {
-    .project-card {
-        min-height: 300px;
-    }
-}
-
-.project-card.card-has-bg {
-    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-    background-size: 120%;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.project-card.card-has-bg:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: inherit;
-    -webkit-filter: grayscale(1);
-    -moz-filter: grayscale(100%);
-    /*-ms-filter: grayscale(100%);*/
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-.project-card.card-has-bg:hover {
-    transform: scale(0.98);
-    box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);
-    background-size: 130%;
-    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.project-card.card-has-bg:hover .card-img-overlay {
-    /*transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);*/
-    /*background: #234f6d;*/
-    background: linear-gradient(0deg, rgba(4, 69, 114, 0.5) 0%, rgb(0, 14, 75) 100%);
-    transition: 0.7s;
-}
-
-/*.project-card .card-footer {*/
-/*    background: none;*/
-/*    border-top: none;*/
+/*.flipPreview {*/
+/*    animation-name: flip;*/
+/*    !*animation-duration: 1s;*!*/
+/*    animation-delay: 2s;*/
+/*    animation-timing-function: ease;*/
+/*    animation-iteration-count: 2;*/
+/*    animation-direction: alternate;*/
 /*}*/
-.project-card .card-footer .media img {
-    border: solid 3px rgba(255, 255, 255, 0.3);
-}
 
-.project-card .card-meta {
-    color: #00a4df;
-    /*font-family: 'Saira', sans-serif !important;*/
-    font-weight: 300;
-    font-size: 14px;
-}
+/*@keyframes flip {*/
+/*    from {*/
+/*        transform: rotateY(0deg);*/
+/*    }*/
+/*    to {*/
+/*        transform: rotateY(180deg);*/
+/*    }*/
+/*}*/
 
-.project-card .card-heading {
-    color: #ffffff;
-    /*font-family: 'Saira', sans-serif !important;*/
-    font-weight: 600;
-    font-size: 20px;
-    text-decoration: none !important;
-}
+/*.flip-container {*/
+/*    width: 100%;*/
+/*    height: 250px;*/
+/*}*/
 
-.project-card .card-body {
-    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
-}
+/*.flip-container .card {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
 
-.project-card:hover {
-    cursor: pointer;
-    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-}
+/*.flip-container {*/
+/*    perspective: 1000px;*/
+/*}*/
 
-.project-card:hover .card-body {
-    margin-top: 30px;
-    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-}
+/*.flip-container:hover .flip {*/
+/*    transform: rotateY(180deg);*/
 
-.project-card .card-img-overlay {
-    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-    background: #00a4df;
-    background: linear-gradient(0deg, rgba(0, 164, 223, 0.37) 0%, rgb(0, 14, 75) 100%);
-}
+/*}*/
+
+/*.flip-container .flip {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*}*/
+
+/*.flip-container .flip {*/
+/*    transition: 0.6s;*/
+/*    transform-style: preserve-3d;*/
+/*    position: relative;*/
+/*}*/
+
+/*.flip-container .flip .flip-front {*/
+/*    z-index: 2;*/
+/*    transform: rotateY(0deg);*/
+/*    background: rgba(21, 1, 1, 0.22);*/
+/*    box-shadow: 0 8px 32px 0 rgba(62, 65, 110, 0.37);*/
+/*    backdrop-filter: blur(4.5px);*/
+/*    -webkit-backdrop-filter: blur(4.5px);*/
+/*    border-radius: 10px;*/
+/*    border: 1px solid rgba(255, 255, 255, 0.07);*/
+/*    !*border: 3px solid #00C8CC !important;*!*/
+/*}*/
+
+/*.flip-container .flip .flip-back {*/
+/*    transform: rotateY(180deg);*/
+/*    color: black !important;*/
+/*    background: rgba(255, 255, 255, 0.7);*/
+/*    box-shadow: 0 8px 32px 0 rgba(62, 65, 110, 0.37);*/
+/*    backdrop-filter: blur(4.5px);*/
+/*    -webkit-backdrop-filter: blur(4.5px);*/
+/*    border-radius: 10px;*/
+/*    border: 1px solid rgba(255, 255, 255, 0.07);*/
+/*}*/
+
+/*.flip-container .flip .flip-front, .flip-container .flip .flip-back {*/
+/*    backface-visibility: hidden;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    will-change: transform;*/
+/*}*/
 
 
-/*Contact Form*/
-.sm-outer-box {
-    border: 1px white solid;
-    border-radius: 5px;
-    transition: all 1s ease-in-out !important;
-}
 
-.sm-outer-box:hover {
-    background-color: #00C8CC;
-    transform: rotate(360deg);
-}
+/*!*Contact Form*!*/
+/*.sm-outer-box {*/
+/*    border: 1px white solid;*/
+/*    border-radius: 5px;*/
+/*    transition: all 1s ease-in-out !important;*/
+/*}*/
 
-.contact-form-body {
+/*.sm-outer-box:hover {*/
+/*    background-color: #00C8CC;*/
+/*    transform: rotate(360deg);*/
+/*}*/
 
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(62, 65, 110, 0.37);
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-}
+/*.contact-form-body {*/
 
-label {
-    display: block;
-    position: relative;
-    margin: 40px 0px;
-}
+/*    background: rgba(255, 255, 255, 0.2);*/
+/*    box-shadow: 0 8px 32px 0 rgba(62, 65, 110, 0.37);*/
+/*    backdrop-filter: blur(4.5px);*/
+/*    -webkit-backdrop-filter: blur(4.5px);*/
+/*    border-radius: 10px;*/
+/*    border: 1px solid rgba(255, 255, 255, 0.18);*/
+/*}*/
 
-.label-txt {
-    /*position: absolute;*/
-    top: -1.6em;
-    padding: 10px;
-    /*font-family: sans-serif;*/
-    font-size: .8em;
-    letter-spacing: 1px;
-    /*color: rgb(255, 255, 255) ;*/
-    transition: ease .3s;
-}
+/*label {*/
+/*    display: block;*/
+/*    position: relative;*/
+/*    margin: 40px 0px;*/
+/*}*/
 
-.input {
-    width: 100%;
-    padding: 10px;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: white !important;
-}
+/*.label-txt {*/
+/*    !*position: absolute;*!*/
+/*    top: -1.6em;*/
+/*    padding: 10px;*/
+/*    !*font-family: sans-serif;*!*/
+/*    font-size: .8em;*/
+/*    letter-spacing: 1px;*/
+/*    !*color: rgb(255, 255, 255) ;*!*/
+/*    transition: ease .3s;*/
+/*}*/
 
-.input-light {
-    width: 100%;
-    padding: 10px;
-    background: transparent;
-    border: none;
-    outline: none;
-    /*color: white!important;*/
-}
+/*.input {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    background: transparent;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    color: white !important;*/
+/*}*/
 
-.line-box {
-    position: relative;
-    width: 100%;
-    height: 2px;
-    background: rgba(155, 155, 155, 0.55);
-}
+/*.input-light {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    background: transparent;*/
+/*    border: none;*/
+/*    outline: none;*/
+/*    !*color: white!important;*!*/
+/*}*/
 
-.line {
-    width: 0%;
-    height: 1px;
-    transform: translateX(0px);
-    background: #00C8CC;
-    transition: ease .6s;
-}
+/*.line-box {*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 2px;*/
+/*    background: rgba(155, 155, 155, 0.55);*/
+/*}*/
 
-.input:focus + .line-box .line {
-    width: 100%;
-}
+/*.line {*/
+/*    width: 0%;*/
+/*    height: 1px;*/
+/*    transform: translateX(0px);*/
+/*    background: #00C8CC;*/
+/*    transition: ease .6s;*/
+/*}*/
 
-.label-active {
-    color: #00C8CC !important;
-}
+/*.input:focus + .line-box .line {*/
+/*    width: 100%;*/
+/*}*/
 
-.contact-form * {
-    /*font-family: 'Saira', sans-serif !important;*/
-    font-weight: 500;
-    font-size: 20px;
-}
+/*.label-active {*/
+/*    color: #00C8CC !important;*/
+/*}*/
+
+/*.contact-form * {*/
+/*    !*font-family: 'Saira', sans-serif !important;*!*/
+/*    font-weight: 500;*/
+/*    font-size: 20px;*/
+/*}*/
 
 
 /*Footer*/
 
-.bg-logo {
-    /*background: rgba( 255, 255, 255, 0.7 );*/
-    /*box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );*/
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18) !important;
-}
-
-.bg-main-color {
-    background-color: rgba(0, 200, 204, 0.1) !important;
-
-}
-
-.bg-navbar {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-}
-
-.navbar-light {
-    background-color: rgba(255, 255, 255, 0.76);
-}
-
-.bg-flagship {
-    background-image: linear-gradient(0deg, rgba(49, 110, 105, 0.8), rgba(1, 13, 47, 0.9)), url("../src/images/flagship-banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bg-features {
-    background-image: linear-gradient(0deg, rgba(113, 144, 225, 0.3), rgba(4, 20, 65, 0.76)), url("../src/images/2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bg-solutions {
-    background-image: url("../src/images/bg-images/geometric_abstract_background_with_connected_dots_and_lines.jpg");
-
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
 
-.bg-expert {
-    background-image: linear-gradient(0deg, rgba(49, 110, 105, 0.8), rgba(1, 13, 47, 0.9)), url("../src/images/bg-images/futuristic-smart-city-with-5g-global-network-technology copy.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
-.bg-solutions-page {
-    background-image: url("../src/images/bg-images/4887489.jpg");
 
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 
-.bg-projects {
-    background-image: url("../src/images/shape-4.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: right;
-}
+/*.navbar-light {*/
+/*    background-color: rgba(255, 255, 255, 0.76);*/
+/*}*/
 
-.bg-card1 {
-    /*background-image: url("../src/images/pattern-7.png");*/
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: right;
-    /*border: 5px #ffffff solid !important;*/
-    color: white !important;
 
-}
 
-.bg-card2 {
-    background-image: url("../src/images/pattern-7.png");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: right;
-}
+/*.bg-features {*/
+/*    background-image: linear-gradient(0deg, rgba(113, 144, 225, 0.3), rgba(4, 20, 65, 0.76)), url("../src/images/2.jpg");*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
 
-.sub-topics {
-    border-bottom: 1px solid #00C8CC;
-    color: #00C8CC;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    padding-bottom: 2px;
-    text-transform: capitalize;
-    text-align: center;
-}
 
-.topic-2 {
 
-    color: #00C8CC;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    padding-bottom: 2px;
-    text-transform: capitalize;
-    text-align: center;
-}
-
-.bg-cover {
-    background-image: linear-gradient(0deg, rgba(113, 144, 225, 0.3), rgba(4, 20, 65, 0.76)), url("../src/images/cover1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*height: 100vh;*/
-}
-
-.bg-cover-sub {
-    /*background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.63)), url("../src/images/pattern-8.png");*/
-    background-color: rgba(4, 21, 70, 0.84) !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.bg-main-cover {
-    background-image: url("../src/images/307193.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bg-contact {
-    background-image:linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.82)), url("../src/images/bg-images/businessman-pointing-his-presentation-futuristic-digital-screen.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /*.cover-img{*/
 /*    animation: scale 10s linear infinite;*/
 /*}*/
 
-.bg-Welcome {
-    background-image: url("../src/images/pattern-7.png");
-    /*background-size: cover;*/
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.bg-Welcome-r {
-    background-image: url("../src/images/pattern-7-r.png");
-    /*background-size: cover;*/
-    background-repeat: no-repeat;
-    background-position: right !important;
-
-}
 
 
-.container-parallax {
-
-    background-attachment: fixed;
-}
-
-.item {
-    display: flex;
-    max-width: 320px;
-    background-color: white;;
-    flex-direction: column;
-    align-items: center;
-    border-radius: .5em;
-    -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
-    -moz-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
-    box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
-}
 
 
 /*footer*/
-footer * {
-    /*font-family: 'Saira', sans-serif !important;*/
-    /*font-weight: 500;*/
-    /*font-size: 20px;*/
-}
-
-.footer-logo {
-    width: 30%;
-    height: auto;
-}
-
-.horizontal-line {
-    width: auto;
-    height: 0.5px;
-    background-color: rgba(155, 155, 155, 0.55);
-}
-
-.footer-heading{
-    color: #00C8CC !important;
-}
-.copyRight {
-    font-size: 0.8em;
-    background-color: rgb(0, 0, 0);
-}
 
 
 /*=========About Us Page============*/
 
 /*cover banner*/
-.sub-cover {
-    height: 50vh;
-}
+/*.sub-cover {*/
+/*    height: 50vh;*/
+/*}*/
 
 .sub-cover-topic {
     color: #00C8CC !important;
