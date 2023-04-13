@@ -54,7 +54,9 @@ a, a:hover {
     text-align: center;
 }
 
-
+.fc-lightBlue {
+    color: #00C8CC !important;
+}
 /*rotate animation*/
 .text-rotateX {
     transform: rotateX(360deg);
@@ -455,7 +457,30 @@ nav.shrink .navbar-toggle {
     background-position: center;
     background-size: cover;
 }
+/*what we offer*/
+.what-we-offer-card {
+    /*background: rgba(9, 0, 0, 0.25);*/
+    box-shadow: 0 8px 32px 0 rgba(155, 155, 155, 0.1) !important;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    width: 100%;
+    border-bottom: 3px solid #00C8CC !important;
+    border-top: 3px solid #00C8CC !important;
+    border-left: 0px solid #00C8CC !important;
+    border-right: 0px solid #00C8CC !important;
+    /*border-image: linear-gradient(308deg, #0c7ca9, #072c3a) 90 !important;*/
+    border-radius: 5% !important;
+    transition: 1s;
 
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+.what-we-offer-card:hover {
+    transition: ease-in-out 0.2s;
+}
 
 /*AboutUs-page*/
 .bg-pattern-aboutUs {
@@ -484,6 +509,159 @@ nav.shrink .navbar-toggle {
     background-position: center;
     background-size: cover;
 }
+.section_our_solution .row {
+    align-items: center;
+}
+
+.our_solution_category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.solution_card {
+    flex: 0 50%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 1s ease-in-out !important;
+    background: linear-gradient(308deg, #0c7ca9, #072c3a);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+    box-shadow: 0 8px 32px 0 rgba(155, 155, 155, 0.3);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.solution_card:hover {
+    background: rgb(255, 255, 255);
+    color: rgba(4, 21, 70, 0.84) !important;
+    transform: scale(1.1);
+    z-index: 9;
+    transition: all 0.5s ease-out  !important;
+    cursor: pointer !important;
+}
+
+.solution_card:hover .solu_description button {
+    background: #fff !important;
+    color: #00c8cc;
+}
+
+.solution_card:hover .solu_title h3, .solution_card:hover .solu_description p {
+    color: rgba(4, 21, 70, 0.84) !important;
+}
+
+.solution_card .solu_title h3 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.solution_card .solu_description p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.hover_color_bubble {
+    position: absolute;
+    background: rgba(0, 200, 204, 0.06);
+    width: 100rem;
+    height: 100rem;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    top: 16rem;
+    border-radius: 50%;
+    transform: rotate(-36deg);
+    left: -18rem;
+    transition: 0.7s;
+}
+
+.solution_card:hover .hover_color_bubble {
+    top: 0rem;
+}
+
+.solution_card:hover .so_top_icon {
+    transform: rotate(360deg) !important;
+    background: none !important;
+    transition: all 1s ease-in-out !important;
+}
+
+.solution_card .so_top_icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /*background: #fff;*/
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.solution_card .so_top_icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: all 1s ease-in-out !important;
+}
+
+/*start media query*/
+@media screen and (min-width: 320px) {
+    .sol_card_top_3 {
+        position: relative;
+        top: 0;
+    }
+
+    .our_solution_category {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .our_solution_category .solution_cards_box {
+        flex: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .our_solution_category .solution_cards_box {
+        flex: 1;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .sol_card_top_3 {
+        position: relative;
+        top: -3rem;
+    }
+
+    .our_solution_category {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+/*model*/
+.bg-model {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.90) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+}
+
+.modal-dialog {
+    max-width: unset !important;
+}
+
+
 
 
 /*Careers-page*/
@@ -494,6 +672,15 @@ nav.shrink .navbar-toggle {
     background-repeat: no-repeat;
     background-position: center;
 }
+.job-card {
+    border: rgba(255, 255, 255, 0.9) 1px solid !important;
+}
+
+.job-card:hover {
+    scale: 1.02;
+    transition: 1s;
+    border: #00C8CC 1px solid !important;
+}
 
 /*ContactUs-page*/
 /*section-contactForm*/
@@ -502,4 +689,26 @@ nav.shrink .navbar-toggle {
     background-size: auto;
     background-repeat: no-repeat;
     background-position: right;
+}
+.sm-box {
+
+    background: linear-gradient(308deg, #0c7ca9, #072c3a);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+    border-radius: 5px;
+    transition: all 1s ease-in-out !important;
+}
+
+.sm-box:hover {
+    background: #00C8CC !important;
+    transform: rotate(360deg);
+}
+
+.contact-topics {
+    font-weight: 700;
+    font-size: 24px !important;
 }
