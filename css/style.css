@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');*/
 
 
 /*General Styles*/
@@ -469,6 +470,18 @@ nav.shrink .navbar-toggle {
     text-transform: capitalize;
     text-align: center;
 }
+/*section-contactUs*/
+.bg-contact-section{
+    background-image:linear-gradient(0deg, rgba(49, 110, 105, 0.8), rgba(1, 13, 47, 0.9)), url("../src/images/bg-images/medium-shot-man-wearing-vr-glasses.jpg");
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contact-section-text{
+    font-weight: 600;
+}
 
 /*section-solutions*/
 .bg-solutions {
@@ -476,6 +489,84 @@ nav.shrink .navbar-toggle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.services-topic-fc-back{
+    color: white !important;
+}
+.box {
+    position: relative;
+    /*width: 30%;*/
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.box .body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+.box .body .imgContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.box .body .imgContainer .card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 8px 32px 0 rgba(155, 155, 155, 0.3) !important;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.box .body .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(308deg, #0c7ca9, #072c3a);
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    border-radius: 5% !important;
+}
+
+.box:hover .body {
+    transform: rotateY(180deg);
+}
+
+.box .body .content div {
+    transform-style: preserve-3d;
+    padding: 20px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.6px);
+    -webkit-backdrop-filter: blur(2.6px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    transform: translateZ(100px);
+}
+
+.box .body .content div h3 {
+    letter-spacing: 1px;
 }
 /*section-client*/
 /*clients*/
@@ -593,7 +684,9 @@ nav.shrink .navbar-toggle {
 }
 
 
-
+.services-icon {
+    width: 70% !important;
+}
 /*what we offer*/
 .what-we-offer-card {
     /*background: rgba(9, 0, 0, 0.25);*/
@@ -618,7 +711,9 @@ nav.shrink .navbar-toggle {
 .what-we-offer-card:hover {
     transition: ease-in-out 0.2s;
 }
-
+.what-we-offer-card:hover .hover_color_bubble {
+    top: 0rem;
+}
 /*AboutUs-page*/
 .bg-pattern-aboutUs {
     background-image: url("../src/images/pattern-7.png");
@@ -645,6 +740,9 @@ nav.shrink .navbar-toggle {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.go-model:hover{
+    transform: scale(0.1) !important;
 }
 
 .section_our_solution .row {
