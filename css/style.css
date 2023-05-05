@@ -804,7 +804,9 @@ nav.shrink .navbar-toggle {
     margin-bottom: 15px;
     color: #ffffff;
 }
-
+.text-list {
+    color: #ffffff !important;
+}
 .hover_color_bubble {
     position: absolute;
     background: rgba(0, 200, 204, 0.06);
@@ -828,6 +830,9 @@ nav.shrink .navbar-toggle {
     transform: rotate(360deg) !important;
     background: none !important;
     transition: all 1s ease-in-out !important;
+}
+.solution_card:hover  .text-list {
+    color: #1a1e21 !important;
 }
 
 .solution_card .so_top_icon {
