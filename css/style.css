@@ -601,7 +601,13 @@ nav.shrink .navbar-toggle {
     transform: rotate(-45deg);
 }
 .btn-primary{
-    background: #00C8CC !important;
+    transition: all 0.25s ease-in-out !important;
+    background: linear-gradient(308deg, #0c7ca9, #072c3a);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    -o-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
     border: #00C8CC !important;
 }
 .service-item .service-icon i {
