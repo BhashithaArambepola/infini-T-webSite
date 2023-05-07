@@ -21,6 +21,24 @@
     <script defer src="js/Home.js"></script>
 
 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+
     <link
             href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
             rel="stylesheet" type='text/css'>
@@ -63,11 +81,11 @@
         <div class="collapse navbar-collapse text-white" id="navbarCollapse">
             <div class="navbar-nav ms-auto">
                 <a href="index.html" class="nav-item nav-link active1 text-center">Home</a>
-                <a href="pages/AboutUs.html" class="nav-item nav-link text-center">About Us</a>
-                <a href="pages/solutions.html" class="nav-item nav-link text-center">Solutions</a>
+                <a href="AboutUs.html" class="nav-item nav-link text-center">About Us</a>
+                <a href="solutions.html" class="nav-item nav-link text-center">Solutions</a>
                 <!--                <a href="pages/Portfolio.html" class="nav-item nav-link text-center">Portfolio</a>-->
-                <a href="pages/Careers.html" class="nav-item nav-link text-center">Careers</a>
-                <a href="pages/ContactUs.html" class="nav-item nav-link text-center">Contact Us</a>
+                <a href="Careers.html" class="nav-item nav-link text-center">Careers</a>
+                <a href="ContactUs.html" class="nav-item nav-link text-center">Contact Us</a>
             </div>
         </div>
     </div>
@@ -92,7 +110,7 @@
                         provide IT solutions and services to Worldwide clients.
                     </p>
                     <div class=" d-flex justify-content-left align-items-center align-items-center  d-none d-md-block ">
-                        <a href="pages/ContactUs.html">
+                        <a href="ContactUs.html">
                             <button class="custom-btn  light-button me-3"><span>Contact Us</span></button>
                         </a>
                     </div>
@@ -111,11 +129,12 @@
                     <h4 class="home-sub-topic  lh-1 pb-3"><strong
                             class="home-banner-blue ">Infini-T </strong> Solutions</h4>
                     <p class="text-start  ">
-                        Provide your Business with the latest technological IT Infrastructure advances, support and maintenance for your
+                        Provide your Business with the latest technological IT Infrastructure advances, support and
+                        maintenance for your
                         existing Infrastructure.
                     </p>
                     <div class=" d-flex justify-content-left align-items-center align-items-center  d-none d-md-block ">
-                        <a href="pages/ContactUs.html">
+                        <a href="ContactUs.html">
                             <button class="custom-btn  light-button me-3"><span>Contact Us</span></button>
                         </a>
                     </div>
@@ -189,197 +208,298 @@
 
 <!-- Our FlagShip Banner -->
 <section class="bg-solutions d-flex justify-content-center align-items-center container-parallax py-5">
-    <div class="container row d-flex align-items-center justify-content-center flex-wrap py-5 py-lg-0 pt-lg-5 ">
-        <div class="d-flex justify-content-center align-items-end">
-            <div class="col-lg-8 col-md-10 col-12 text-center ">
-                <!--                <h5 class="sub-topics ">Our Solutions</h5>-->
+<!--    <div class="container row d-flex align-items-center justify-content-center flex-wrap py-5 py-lg-0 pt-lg-5 ">-->
+<!--        <div class="d-flex justify-content-center align-items-end">-->
+<!--            <div class="col-lg-8 col-md-10 col-12 text-center ">-->
+<!--                &lt;!&ndash;                <h5 class="sub-topics ">Our Solutions</h5>&ndash;&gt;-->
+<!--                <h1 class="topics">What We Offer</h1>-->
+<!--                <p class="">We offer a range of services to ensure our clients get the best-->
+<!--                    return on their technology investments. </p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-12 col-md-6 col-lg-4">-->
+<!--            <a href="solutions.html">-->
+<!--                <div class="box ">-->
+<!--                    <div class="body">-->
+<!--                        <div class="imgContainer">-->
+<!--                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">-->
+<!--                                <img src="src/images/Services/Vector/erp.png"-->
+<!--                                     class="img-fluid services-icon pb-3">-->
+<!--                                <h5 class="card-title fc-darkBlue text-center">ERP Services</h5>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">-->
+<!--                            <div>-->
+<!--                                <h5 class="card-title services-topic-fc-back pb-2">ERP Services</h5>-->
+<!--                                <p class="fs-6 text-white">-->
+<!--                                <ul class="text-white">-->
+<!--                                    <li>Implementation</li>-->
+<!--                                </ul>-->
+
+<!--                                </p>-->
+
+<!--                                <img-->
+<!--                                        src="src/images/icons/arrows.png" class="img-fluid go-model" width="45"-->
+<!--                                        height="30">-->
+
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div class="col-12 col-md-6 col-lg-4">-->
+<!--            <a href="solutions.html">-->
+<!--                <div class="box">-->
+<!--                    <div class="body">-->
+<!--                        <div class="imgContainer">-->
+
+<!--                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">-->
+
+
+<!--                                <img src="src/images/Services/Vector/software.png" alt="low cost"-->
+<!--                                     class="img-fluid services-icon pb-3">-->
+<!--                                <h5 class="card-title fc-darkBlue text-center">Software Development</h5></div>-->
+
+
+<!--                        </div>-->
+<!--                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">-->
+<!--                            <div>-->
+<!--                                <h5 class="card-title services-topic-fc-back pb-2">Software Development</h5>-->
+<!--                                <p class="fs-6 text-white">-->
+<!--                                <ul class="text-white">-->
+<!--                                    <li> Business Analysis</li>-->
+
+
+<!--                                </ul>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div class="col-12 col-md-6 col-lg-4">-->
+<!--            <a href="solutions.html">-->
+<!--                <div class="box">-->
+<!--                    <div class="body">-->
+<!--                        <div class="imgContainer">-->
+
+<!--                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">-->
+
+
+<!--                                <img src="src/images/Services/Vector/mobile%20app.png" alt="low cost"-->
+<!--                                     class="img-fluid services-icon pb-3">-->
+<!--                                <h5 class="card-title fc-darkBlue text-center">Mobile App Development</h5></div>-->
+
+
+<!--                        </div>-->
+<!--                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">-->
+<!--                            <div>-->
+<!--                                <h5 class="card-title services-topic-fc-back pb-2">Mobile App Development</h5>-->
+<!--                                <p class="fs-6 text-white">-->
+<!--                                <ul class="text-white">-->
+<!--                                    <li> Business Analysis</li>-->
+
+<!--                                </ul>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div class="col-12 col-md-6 col-lg-4">-->
+<!--            <a href="solutions.html">-->
+<!--                <div class="box">-->
+<!--                    <div class="body">-->
+<!--                        <div class="imgContainer">-->
+
+<!--                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">-->
+
+
+<!--                                <img src="src/images/Services/Vector/cyber%20security.png" alt="low cost"-->
+<!--                                     class="img-fluid services-icon pb-3">-->
+<!--                                <h5 class="card-title fc-darkBlue text-center">Cyber Security</h5></div>-->
+
+
+<!--                        </div>-->
+<!--                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">-->
+<!--                            <div>-->
+<!--                                <h5 class="card-title services-topic-fc-back pb-2">Cyber Security</h5>-->
+<!--                                <p class="fs-6 text-white">-->
+<!--                                <ul class="text-white">-->
+<!--                                    <li>Vulnerability Assessment</li>-->
+
+
+<!--                                </ul>-->
+
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div class="col-12 col-md-6 col-lg-4">-->
+<!--            <a href="solutions.html">-->
+<!--                <div class="box">-->
+<!--                    <div class="body">-->
+<!--                        <div class="imgContainer">-->
+
+<!--                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">-->
+
+
+<!--                                <img src="src/images/Services/Vector/consult.png" alt="low cost"-->
+<!--                                     class="img-fluid services-icon pb-1">-->
+<!--                                <h5 class="card-title fc-darkBlue text-center ">Consultation & Support Service</h5>-->
+<!--                            </div>-->
+
+
+<!--                        </div>-->
+<!--                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">-->
+<!--                            <div>-->
+<!--                                <h5 class="card-title services-topic-fc-back pb-2">Consultation & Support Service</h5>-->
+<!--                                <p class="fs-6 text-white">-->
+<!--                                <ul class="text-white">-->
+<!--                                    <li> Product Consultations (Microsoft)</li>-->
+
+
+<!--                                </ul>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div class="col-12 col-md-6 col-lg-4">-->
+<!--            <a href="solutions.html">-->
+<!--                <div class="box">-->
+<!--                    <div class="body">-->
+<!--                        <div class="imgContainer">-->
+
+<!--                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">-->
+
+
+<!--                                <img src="src/images/Services/Vector/learning.png" alt="low cost"-->
+<!--                                     class="img-fluid services-icon pb-1">-->
+<!--                                <h5 class="card-title fc-darkBlue text-center">Learning</h5></div>-->
+
+
+<!--                        </div>-->
+<!--                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">-->
+<!--                            <div>-->
+<!--                                <h5 class="card-title services-topic-fc-back pb-2">Learning</h5>-->
+<!--                                <p class="fs-6 text-white">-->
+<!--                                <ul class="text-white">-->
+<!--                                    <li>MOC training</li>-->
+
+<!--                                </ul>-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </div>-->
+<!--    </div>-->
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h1 class="topics">What We Offer</h1>
                 <p class="">We offer a range of services to ensure our clients get the best
                     return on their technology investments. </p>
             </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <a href="pages/solutions.html">
-                <div class="box ">
-                    <div class="body">
-                        <div class="imgContainer">
-                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">
-                                <img src="src/images/Services/Vector/erp.png"
-                                     class="img-fluid services-icon pb-3">
-                                <h5 class="card-title fc-darkBlue text-center">ERP Services</h5>
-                            </div>
-                        </div>
-                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">
-                            <div>
-                                <h5 class="card-title services-topic-fc-back pb-2">ERP Services</h5>
-                                <p class="fs-6 text-white">
-                                <ul class="text-white">
-                                    <li>Implementation</li>
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img src="src/images/Services/Vector/erp.png"
+                             class="img-fluid services-icon pb-3">
+                        <h5 class="card-title fc-darkBlue text-center">ERP Services</h5>
+                        <ul class="">
+                            <li>Implementation</li>
+                        </ul>
+                        <a class="btn btn-lg btn-primary rounded" href="solutions.html">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <a href="pages/solutions.html">
-                <div class="box">
-                    <div class="body">
-                        <div class="imgContainer">
-
-                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">
-
-
-                                <img src="src/images/Services/Vector/software.png" alt="low cost"
-                                     class="img-fluid services-icon pb-3">
-                                <h5 class="card-title fc-darkBlue text-center">Software Development</h5></div>
-
-
-                        </div>
-                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">
-                            <div>
-                                <h5 class="card-title services-topic-fc-back pb-2">Software Development</h5>
-                                <p class="fs-6 text-white">
-                                <ul class="text-white">
-                                    <li> Business Analysis</li>
-
-
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img src="src/images/Services/Vector/software.png"
+                             class="img-fluid services-icon pb-3">
+                        <h5 class="card-title fc-darkBlue text-center">Software Development</h5>
+                        <ul class="">
+                            <li> Business Analysis</li>
+                        </ul>
+                        <a class="btn btn-lg btn-primary rounded" href="solutions.html">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <a href="pages/solutions.html">
-                <div class="box">
-                    <div class="body">
-                        <div class="imgContainer">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img src="src/images/Services/Vector/mobile%20app.png"
+                             class="img-fluid services-icon pb-3">
+                        <h5 class="card-title fc-darkBlue text-center">Mobile App Development</h5>
+                        <ul class="">
+                            <li> Business Analysis</li>
+                        </ul>
 
-                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">
-
-
-                                <img src="src/images/Services/Vector/mobile%20app.png" alt="low cost"
-                                     class="img-fluid services-icon pb-3">
-                                <h5 class="card-title fc-darkBlue text-center">Mobile App Development</h5></div>
-
-
-                        </div>
-                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">
-                            <div>
-                                <h5 class="card-title services-topic-fc-back pb-2">Mobile App Development</h5>
-                                <p class="fs-6 text-white">
-                                <ul class="text-white">
-                                    <li> Business Analysis</li>
-
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
+                        <a class="btn btn-lg btn-primary rounded" href="solutions.html">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <a href="pages/solutions.html">
-                <div class="box">
-                    <div class="body">
-                        <div class="imgContainer">
-
-                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">
-
-
-                                <img src="src/images/Services/Vector/cyber%20security.png" alt="low cost"
-                                     class="img-fluid services-icon pb-3">
-                                <h5 class="card-title fc-darkBlue text-center">Cyber Security</h5></div>
-
-
-                        </div>
-                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">
-                            <div>
-                                <h5 class="card-title services-topic-fc-back pb-2">Cyber Security</h5>
-                                <p class="fs-6 text-white">
-                                <ul class="text-white">
-                                    <li>Vulnerability Assessment</li>
-
-
-                                </ul>
-
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img src="src/images/Services/Vector/cyber%20security.png"
+                             class="img-fluid services-icon pb-3">
+                        <h5 class="card-title fc-darkBlue text-center">Cyber Security</h5>
+                        <ul class="">
+                            <li>Vulnerability Assessment</li>
+                        </ul>
+                        <a class="btn btn-lg btn-primary rounded" href="solutions.html">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <a href="pages/solutions.html">
-                <div class="box">
-                    <div class="body">
-                        <div class="imgContainer">
-
-                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">
-
-
-                                <img src="src/images/Services/Vector/consult.png" alt="low cost"
-                                     class="img-fluid services-icon pb-1">
-                                <h5 class="card-title fc-darkBlue text-center ">Consultation & Support Service</h5>
-                            </div>
-
-
-                        </div>
-                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">
-                            <div>
-                                <h5 class="card-title services-topic-fc-back pb-2">Consultation & Support Service</h5>
-                                <p class="fs-6 text-white">
-                                <ul class="text-white">
-                                    <li> Product Consultations (Microsoft)</li>
-
-
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img src="src/images/Services/Vector/consult.png"
+                             class="img-fluid services-icon pb-3">
+                        <h5 class="card-title fc-darkBlue text-center">Consultation & Support Service</h5>
+                        <ul class="">
+                            <li> Product Consultations (Microsoft)</li>
+                        </ul>
+                        <a class="btn btn-lg btn-primary rounded" href="solutions.html">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-            </a>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <a href="pages/solutions.html">
-                <div class="box">
-                    <div class="body">
-                        <div class="imgContainer">
+                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <img src="src/images/Services/Vector/learning.png"
+                             class="img-fluid services-icon pb-3">
+                        <h5 class="card-title fc-darkBlue text-center">Learning</h5>
+                        <ul class="">
+                            <li>MOC training</li>
+                        </ul>
 
-                            <div class="card bg-white d-flex flex-column justify-content-between align-items-center what-we-offer-card py-5">
-
-
-                                <img src="src/images/Services/Vector/learning.png" alt="low cost"
-                                     class="img-fluid services-icon pb-1">
-                                <h5 class="card-title fc-darkBlue text-center">Learning</h5></div>
-
-
-                        </div>
-                        <div class="content d-flex flex-column align-items-center justify-content-center p-5">
-                            <div>
-                                <h5 class="card-title services-topic-fc-back pb-2">Learning</h5>
-                                <p class="fs-6 text-white">
-                                <ul class="text-white">
-                                    <li>MOC training</li>
-
-                                </ul>
-                                </p>
-                            </div>
-                        </div>
+                        <a class="btn btn-lg btn-primary rounded" href="solutions.html">
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
     </div>
+    <!-- Service End -->
 </section>
+
+
 
 <!--clients-->
 <div class="container-fluid py-5 my-lg-5">
@@ -410,7 +530,7 @@
             <div class="col-8 py-5 text-center">
                 <h1 class="text-white py-5 contact-section-text"><span class="fc-lightBlue"> We're ready.</span>
                     Connect with us</h1>
-                <a href="pages/ContactUs.html" class="py-5">
+                <a href="ContactUs.html" class="py-5">
                     <button class="custom-btn-dark dark-button me-3"><span>Contact Us</span></button>
                 </a>
             </div>
@@ -425,12 +545,12 @@
 
         <div class="col-12 col-md-6 col-lg-3 text-md-start text-center">
             <h3 class="pb-3 footer-heading"> Our Services</h3>
-            <a class="footer-nav" href="pages/solutions.html"><p>ERP Services</p></a>
-            <a class="footer-nav" href="pages/solutions.html"><p>Software Development</p></a>
-            <a class="footer-nav" href="pages/solutions.html"><p>Mobile Application Development</p></a>
-            <a class="footer-nav" href="pages/solutions.html"><p>Cyber Security</p></a>
-            <a class="footer-nav" href="pages/solutions.html"><p>Consultation & Support Services</p></a>
-            <a class="footer-nav" href="pages/solutions.html"><p>Learning</p></a>
+            <a class="footer-nav" href="solutions.html"><p>ERP Services</p></a>
+            <a class="footer-nav" href="solutions.html"><p>Software Development</p></a>
+            <a class="footer-nav" href="solutions.html"><p>Mobile Application Development</p></a>
+            <a class="footer-nav" href="solutions.html"><p>Cyber Security</p></a>
+            <a class="footer-nav" href="solutions.html"><p>Consultation & Support Services</p></a>
+            <a class="footer-nav" href="solutions.html"><p>Learning</p></a>
         </div>
         <div class="col-12 col-md-6 col-lg-3 text-md-start text-center">
             <h3 class="pb-3 footer-heading">Quick Links</h3>
