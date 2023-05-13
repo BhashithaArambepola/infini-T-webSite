@@ -4,7 +4,7 @@ if (!empty($_POST)) {
   error_reporting( E_ALL );
 
   $from_email = $_POST['email'];
-  $recipient_email = "rajithasanuka@gmail.com";
+  $recipient_email = "info@Infini-tsolutions.com";
   $subject = "Contact";
   $message = $_POST['message'];
 
