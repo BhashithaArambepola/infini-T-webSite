@@ -1,17 +1,17 @@
 <?php
 if (!empty($_POST)) {
-  $from_email = $_POST['email'];
-  $message = $_POST['message'];
-  $recipient_email = "rajithasanuka@gmail.com";
+    $from_email = $_POST['email'];
+    $message = $_POST['message'];
+    $recipient_email = "rajithasanuka@gmail.com";
 
-  // Email header
-  $headers[] = 'MIME-Version: 1.0';
-  $headers[] = 'Content-type: text/html; charset=utf-8';
-  $headers[] = "To: $recipient_email";
-  $headers[] = "From: $from_email";
-  $header = implode('\r\n', $headers);
+    // Email header
+    $headers[] = 'MIME-Version: 1.0';
+    $headers[] = 'Content-type: text/html; charset=utf-8';
+    $headers[] = "To: $recipient_email";
+    $headers[] = "From: $from_email";
+    $header = implode('\r\n', $headers);
 
-  mail($recipient_email, "Contact", $message, $header);
+    mail($recipient_email, "Contact", $message, $header);
 }
 ?>
 <!DOCTYPE html>
@@ -46,13 +46,13 @@ if (!empty($_POST)) {
 <nav id="navbar" class="navbar  navbar-expand-lg  fixed-top ">
     <div class="container-fluid">
         <div class="bg-logo "><a href="index.html" class="navbar-brand">
-            <img
-                    src="src/images/Logo.png"
-                    class="img-fluid1"
-                    height="60"
-                    alt="CoolBrand"
-            />
-        </a></div>
+                <img
+                        src="src/images/Logo.png"
+                        class="img-fluid1"
+                        height="60"
+                        alt="CoolBrand"
+                />
+            </a></div>
 
         <button
                 type="button"
@@ -91,8 +91,8 @@ if (!empty($_POST)) {
                     <li class="breadcrumb-item">
                         <a class="text-white breadcrumb-item-list" href="index.html">Home</a></li>
                     <li class="breadcrumb-item d-flex justify-content-center align-items-center"><img
-                            src="src/images/right-chevron.png" class="img-fluid me-2" width="15"
-                            height="10"></li>
+                                src="src/images/right-chevron.png" class="img-fluid me-2" width="15"
+                                height="10"></li>
                     <li class="breadcrumb-item active-tab">Contact Us</li>
                 </ol>
             </div>
@@ -110,12 +110,18 @@ if (!empty($_POST)) {
             <div class="col-12  d-flex justify-content-center justify-content-md-start align-items-center ">
                 <div id="sm-pack" class="d-flex ">
 
-                    <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank" href="https://www.facebook.com/profile.php?id=100078011537730&mibextid=ZbWKwL"><img src="src/images/facebook.png" class="img-fluid"
-                                                                                                                                                                width="25" height="25"></a></div>
-                    <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank" href="https://www.linkedin.com/company/infini-t-tech-solutions-pvt-ltd/"><img src="src/images/icons/twitter.png"
-                                                                                                                                                          class="img-fluid" width="25" height="25"></a></div>
-                    <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank" href="https://www.linkedin.com/company/infini-t-tech-solutions-pvt-ltd/"><img src="src/images/icons/linkedin.png"
-                                                                                                                                                          class="img-fluid" width="25" height="25"></a></div>
+                    <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank"
+                                                            href="https://www.facebook.com/profile.php?id=100078011537730&mibextid=ZbWKwL"><img
+                                    src="src/images/facebook.png" class="img-fluid"
+                                    width="25" height="25"></a></div>
+                    <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank"
+                                                            href="https://www.linkedin.com/company/infini-t-tech-solutions-pvt-ltd/"><img
+                                    src="src/images/icons/twitter.png"
+                                    class="img-fluid" width="25" height="25"></a></div>
+                    <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank"
+                                                            href="https://www.linkedin.com/company/infini-t-tech-solutions-pvt-ltd/"><img
+                                    src="src/images/icons/linkedin.png"
+                                    class="img-fluid" width="25" height="25"></a></div>
 
 
                 </div>
@@ -153,7 +159,8 @@ if (!empty($_POST)) {
                                                 <div class="form-group">
                                                     <label for="form_name">First Name *</label>
                                                     <input id="form_name" type="text" name="name" class="form-control"
-                                                           placeholder="Please enter your firstname *" required="required"
+                                                           placeholder="Please enter your firstname *"
+                                                           required="required"
                                                            data-error="Firstname is required.">
 
                                                 </div>
@@ -161,8 +168,10 @@ if (!empty($_POST)) {
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="form_lastname">Last Name *</label>
-                                                    <input id="form_lastname" type="text" name="surname" class="form-control"
-                                                           placeholder="Please enter your lastname *" required="required"
+                                                    <input id="form_lastname" type="text" name="surname"
+                                                           class="form-control"
+                                                           placeholder="Please enter your lastname *"
+                                                           required="required"
                                                            data-error="Lastname is required.">
                                                 </div>
                                             </div>
@@ -171,7 +180,8 @@ if (!empty($_POST)) {
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="form_email">Email *</label>
-                                                    <input id="form_email" type="email" name="email" class="form-control"
+                                                    <input id="form_email" type="email" name="email"
+                                                           class="form-control"
                                                            placeholder="Please enter your email *" required="required"
                                                            data-error="Valid email is required.">
 
@@ -180,7 +190,8 @@ if (!empty($_POST)) {
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label for="form_need">Please specify your need *</label>
-                                                    <select id="form_need" type="" name="need" class="form-control" required="required"
+                                                    <select id="form_need" type="" name="need" class="form-control"
+                                                            required="required"
                                                             data-error="Please specify your need.">
                                                         <option value="" selected disabled>--Select Solution</option>
                                                         <option>ERP Services</option>
@@ -188,16 +199,10 @@ if (!empty($_POST)) {
                                                         <option>Mobile App Development</option>
                                                         <option>Cyber Security</option>
                                                         <option>Consultation & Support
-                                                            Services</option>
+                                                            Services
+                                                        </option>
                                                         <option>Learning</option>
                                                         <option>Other</option>
-
-
-
-
-
-
-
 
 
                                                     </select>
@@ -210,7 +215,8 @@ if (!empty($_POST)) {
                                                 <div class="form-group">
                                                     <label for="form_message">Message *</label>
                                                     <textarea id="form_message" name="message" class="form-control"
-                                                              placeholder="Write your message here." rows="4" required="required"
+                                                              placeholder="Write your message here." rows="4"
+                                                              required="required"
                                                               data-error="Please, leave us a message."></textarea
                                                     >
                                                 </div>
@@ -219,7 +225,8 @@ if (!empty($_POST)) {
                                         </div>
 
                                         <div class="col-md-12 pt-3">
-                                            <button id="btn-send" type="submit" class="custom-btn light-button"><span>Submit</span></button>
+                                            <button id="btn-send" type="submit" class="custom-btn light-button"><span>Submit</span>
+                                            </button>
                                         </div>
 
                                     </div>
@@ -250,10 +257,7 @@ if (!empty($_POST)) {
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </section>
-
-
 <footer class="bg-light d-flex justify-content-center align-items-center pt-5 ">
-
     <div class="row container d-flex justify-content-between align-items-start">
 
 
@@ -277,16 +281,16 @@ if (!empty($_POST)) {
             <div id="sm-pack" class="d-flex pb-3 justify-content-center justify-content-md-start ">
                 <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank"
                                                         href="https://www.facebook.com/profile.php?id=100078011537730&mibextid=ZbWKwL"><img
-                        src="src/images/facebook.png" class="img-fluid"
-                        width="25" height="25"></a></div>
+                                src="src/images/facebook.png" class="img-fluid"
+                                width="25" height="25"></a></div>
                 <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank"
                                                         href="https://www.linkedin.com/company/infini-t-tech-solutions-pvt-ltd/"><img
-                        src="src/images/icons/twitter.png"
-                        class="img-fluid" width="25" height="25"></a></div>
+                                src="src/images/icons/twitter.png"
+                                class="img-fluid" width="25" height="25"></a></div>
                 <div class="sm-box ms-lg-0 mx-3 p-1"><a target="_blank"
                                                         href="https://www.linkedin.com/company/infini-t-tech-solutions-pvt-ltd/"><img
-                        src="src/images/icons/linkedin.png"
-                        class="img-fluid" width="25" height="25"></a></div>
+                                src="src/images/icons/linkedin.png"
+                                class="img-fluid" width="25" height="25"></a></div>
 
 
             </div>
@@ -317,12 +321,9 @@ if (!empty($_POST)) {
         <div class="horizontal-line my-2"></div>
 
     </div>
-
-    <!--    </div>-->
-
 </footer>
 <div class="col-12 copyRight d-flex justify-content-center align-items-center text-white">
-    <p class="">Copyright © 2023 Studio Feenix All Right Reserved</p>
+    <p class="">Copyright © 2023 Infini-T Solutions All Right Reserved</p>
 </div>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div id="foo" class="elfsight-app-7b5108d2-db93-46e4-a1af-3f8eac315749"></div>
