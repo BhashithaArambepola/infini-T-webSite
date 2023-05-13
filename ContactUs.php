@@ -1,17 +1,22 @@
 <?php
 if (!empty($_POST)) {
-    $from_email = $_POST['email'];
-    $message = $_POST['message'];
-    $recipient_email = "rajithasanuka@gmail.com";
+  ini_set( 'display_errors', 1 );  
+  error_reporting( E_ALL );
 
-    // Email header
-    $headers[] = 'MIME-Version: 1.0';
-    $headers[] = 'Content-type: text/html; charset=utf-8';
-    $headers[] = "To: $recipient_email";
-    $headers[] = "From: $from_email";
-    $header = implode('\r\n', $headers);
+  $from_email = $_POST['email'];
+  $recipient_email = "rajithasanuka@gmail.com";
+  $subject = "Contact";
+  $message = $_POST['message'];
 
-    mail($recipient_email, "Contact", $message, $header);
+  $headers = "From:" . $from_email;
+  if (mail ($recipient_email,$subject,$message,$headers))
+  {
+    echo "The email message was sent.";
+  }
+  else
+  {
+    echo "The email message was not sent.";
+  }  
 }
 ?>
 <!DOCTYPE html>
