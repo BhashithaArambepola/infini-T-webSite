@@ -4,11 +4,14 @@ if (!empty($_POST)) {
   error_reporting( E_ALL );
 
   $from_email = $_POST['email'];
-  $recipient_email = "info@Infini-tsolutions.com";
-  $subject = "Contact";
+  $recipient_email = "info@Infini-tsolutions.com";  
   $message = $_POST['message'];
-
+  $first_name = $_POST['name'];
+  $last_name = $_POST['surname'];
+  $need = $_POST['need'];
+  $subject=$first_name." ".$last_name." need: ".$need;
   $headers = "From:" . $from_email;
+
   if (mail ($recipient_email,$subject,$message,$headers))
   {
     echo "The email message was sent.";
